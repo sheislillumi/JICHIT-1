@@ -40,6 +40,12 @@ TIMEOUT = 25
 RETRY = 2
 SLEEP_BETWEEN_REQUESTS = 1.5  # 相手サーバへの配慮
 
+# 締切日・金額の精度向上のため、当日マッチした案件の詳細ページを追加取得する際の設定。
+# 一覧ページのクロールより件数が少ない(1日あたり50件前後)ため、タイムアウトは短めにし、
+# 失敗しても収集全体を止めない。
+DETAIL_FETCH_TIMEOUT = 15
+DETAIL_FETCH_SLEEP = 0.7
+
 # 「展示会・商談会」および「販路拡大・バイヤーマッチング」を指すキーワード
 KEYWORDS_TOPIC = [
     "展示", "商談", "見本市", "物産展", "産業展",
@@ -84,12 +90,24 @@ DATE_RE = re.compile(
 )
 
 DEADLINE_KEYWORDS = [
-    "締切", "締め切り", "応募期限", "提出期限", "受付期間", "受付締切", "公募期間", "期限",
+    "締切", "締め切り", "応募期限", "提出期限", "納入期限", "納期限",
+    "受付期間", "受付締切", "公募期間", "応募期間",
 ]
+# 詳細ページの本文全体を対象にすると、「質問受付期限」のような本来の締切とは
+# 別の補助的な期限にまで「期限」の文字だけで反応してしまう(詳細ページには
+# 応募期間・質問受付期限・提出期限などが並記されることがあり、汎用的すぎる
+# 「期限」はそのうち最も近い日付＝無関係な補助的期限を誤って選んでしまう)。
+# そのためDEADLINE_KEYWORDSの具体的な語で見つからなかった場合のみ、
+# 最終手段としてこちらを使う。
+DEADLINE_FALLBACK_KEYWORDS = ["期限"]
 DEADLINE_WINDOW = 30
+# 「令和8年4月9日から令和8年4月22日17時まで」のような期間表記では、締切として
+# 意味があるのは終了日側。マッチ直後(この文字数以内)に「まで」があれば、
+# それを開始日より優先する。
+DEADLINE_UNTIL_WINDOW = 20
 
-# 「11,000,000円」「1,100万円」のような金額表記
-AMOUNT_RE = re.compile(r"\d[\d,]*(?:\.\d+)?万?円")
+# 「11,000,000円」「1,100万円」「12,000千円」のような金額表記
+AMOUNT_RE = re.compile(r"\d[\d,，]*(?:\.\d+)?(?:万|千)?円")
 AMOUNT_KEYWORDS = ["上限", "予定価格", "委託料", "契約金額", "限度額"]
 AMOUNT_WINDOW = 30
 
@@ -130,7 +148,7 @@ def _keyword_positions(text, keywords):
     return positions
 
 
-def _nearest_match(candidates, kw_positions, window):
+def _nearest_match(candidates, kw_positions, window, text=None, until_window=None):
     """kw_positions の直後(「期限：2026年8月15日」等)にあるマッチを優先し、
     見つからなければ直前にあるマッチを採用する。
 
@@ -138,36 +156,75 @@ def _nearest_match(candidates, kw_positions, window):
     無関係な日付がキーワード直前に隣接することがあるため、単純な最短距離では
     掲載日を誤って締切日と判定してしまう。キーワード→値の語順を優先することで
     これを避ける。
+
+    text と until_window を指定した場合、「令和8年4月9日から令和8年4月22日
+    17時まで」のような期間表記で、直後(until_window文字以内)に「まで」が
+    続く候補(=期間の終了日)があればそれを最優先する。「応募期間」等の
+    キーワードでは開始日ではなく終了日こそが締切として意味を持つため。
     """
-    forward, forward_dist = None, None
-    backward, backward_dist = None, None
+    forward_dist = {}
     for c in candidates:
         for kp_start, kp_end in kw_positions:
             if c.start() >= kp_end:
                 dist = c.start() - kp_end
-                if dist <= window and (forward_dist is None or dist < forward_dist):
-                    forward, forward_dist = c, dist
-            elif c.end() <= kp_start:
+                if dist <= window and (c not in forward_dist or dist < forward_dist[c]):
+                    forward_dist[c] = dist
+
+    if forward_dist:
+        if text is not None and until_window:
+            until_candidates = []
+            for c in forward_dist:
+                tail = text[c.end():c.end() + until_window]
+                until_idx = tail.find("まで")
+                if until_idx == -1:
+                    continue
+                until_pos = c.end() + until_idx
+                # cと「まで」の間に別の日付マッチが割り込んでいる場合、cは
+                # 期間の開始日であって終了日ではないと判断し対象から外す。
+                blocked = any(
+                    other is not c and c.end() <= other.start() < until_pos
+                    for other in candidates
+                )
+                if not blocked:
+                    until_candidates.append(c)
+            if until_candidates:
+                return min(until_candidates, key=lambda c: forward_dist[c])
+        return min(forward_dist, key=lambda c: forward_dist[c])
+
+    backward, backward_dist = None, None
+    for c in candidates:
+        for kp_start, kp_end in kw_positions:
+            if c.end() <= kp_start:
                 dist = kp_start - c.end()
                 if dist <= window and (backward_dist is None or dist < backward_dist):
                     backward, backward_dist = c, dist
-    return forward if forward is not None else backward
+    return backward
 
 
 def extract_deadline(text, current_year):
-    """締切キーワード近傍の日付のみを締切日として採用する(掲載日の誤検出を防ぐ)。"""
+    """締切キーワード近傍の日付のみを締切日として採用する(掲載日の誤検出を防ぐ)。
+
+    具体的な締切キーワード(DEADLINE_KEYWORDS)で見つかればそれを優先し、
+    何も見つからなかった場合のみ汎用的な「期限」(DEADLINE_FALLBACK_KEYWORDS)で
+    再試行する。
+    """
     if not text:
         return None, None
     date_matches = list(DATE_RE.finditer(text))
     if not date_matches:
         return None, None
-    kw_positions = _keyword_positions(text, DEADLINE_KEYWORDS)
-    if not kw_positions:
-        return None, None
-    best = _nearest_match(date_matches, kw_positions, DEADLINE_WINDOW)
-    if best is None:
-        return None, None
-    return _date_from_match(best, current_year), best.group(0)
+
+    for keywords in (DEADLINE_KEYWORDS, DEADLINE_FALLBACK_KEYWORDS):
+        kw_positions = _keyword_positions(text, keywords)
+        if not kw_positions:
+            continue
+        best = _nearest_match(
+            date_matches, kw_positions, DEADLINE_WINDOW,
+            text=text, until_window=DEADLINE_UNTIL_WINDOW,
+        )
+        if best is not None:
+            return _date_from_match(best, current_year), best.group(0)
+    return None, None
 
 
 def extract_amount(text):
@@ -180,6 +237,39 @@ def extract_amount(text):
     kw_positions = _keyword_positions(text, AMOUNT_KEYWORDS)
     best = _nearest_match(amount_matches, kw_positions, AMOUNT_WINDOW) if kw_positions else None
     return (best or amount_matches[0]).group(0)
+
+
+def fetch_detail_deadline_amount(url, current_year):
+    """当日マッチした案件の詳細ページを追加取得し、締切日・金額を抽出する。
+
+    一覧ページのcontextより、詳細ページの方が「契約期間」「委託金額」のような
+    見出し付きで構造化されており精度が高いことが多い。詳細ページの取得・解析に
+    失敗しても例外を上位に伝播させず (None, None, None) を返し、
+    呼び出し側で一覧ページの抽出結果をそのまま使わせる。
+    """
+    if url.split("?", 1)[0].lower().endswith(".pdf"):
+        return None, None, None
+    try:
+        resp = requests.get(
+            url,
+            headers={"User-Agent": USER_AGENT},
+            timeout=DETAIL_FETCH_TIMEOUT,
+        )
+        resp.raise_for_status()
+        content_type = resp.headers.get("Content-Type", "")
+        if "pdf" in content_type.lower():
+            return None, None, None
+        if resp.encoding is None or resp.encoding.lower() == "iso-8859-1":
+            resp.encoding = resp.apparent_encoding
+        soup = BeautifulSoup(resp.text, "lxml")
+        body = soup.body or soup
+        text = body.get_text(" ", strip=True)
+    except Exception:  # noqa: BLE001 - 詳細取得の失敗は一覧の結果を維持して続行
+        return None, None, None
+
+    deadline_date, deadline_raw = extract_deadline(text, current_year)
+    amount_raw = extract_amount(text)
+    return deadline_date, deadline_raw, amount_raw
 
 
 def load_config():
@@ -556,6 +646,7 @@ HANDLERS = {
 
 def run():
     today = datetime.date.today().isoformat()
+    current_year = datetime.date.today().year
     now_iso = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
     orgs = load_config()
@@ -581,9 +672,22 @@ def run():
             else:
                 html = fetch(url)
                 effective_url = url
-            candidates = extract_candidates(html, effective_url)
+            candidates = extract_candidates(html, effective_url, current_year)
             matched_count = len(candidates)
             total_matched += matched_count
+
+            # 当日マッチした案件のみ、詳細ページを追加取得して締切日・金額の
+            # 精度を上げる。詳細URLがセッション依存の団体(detail_fetch_unsafe)は
+            # 別セッションでは開けないためスキップし、一覧ページの抽出結果のみ使う。
+            if not org.get("detail_fetch_unsafe"):
+                for c in candidates:
+                    d_date, d_raw, a_raw = fetch_detail_deadline_amount(c["url"], current_year)
+                    if d_date or d_raw:
+                        c["deadline_date"] = d_date
+                        c["deadline_raw"] = d_raw
+                    if a_raw:
+                        c["amount_raw"] = a_raw
+                    time.sleep(DETAIL_FETCH_SLEEP)
 
             for c in candidates:
                 item_id = make_item_id(org_id, c["url"], c["title"])
