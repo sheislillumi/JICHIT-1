@@ -1,4 +1,112 @@
 {
-  "generated_at": null,
-  "items": []
+  "generated_at": "2026-07-17T00:04:58Z",
+  "items": [
+    {
+      "id": "d2bad0b47aa02608",
+      "org_id": "kagoshima",
+      "org_name": "鹿児島県",
+      "org_category": "prefecture",
+      "title": "【質問への回答を掲載しました】大規模輸出商談会への出展における鹿児島県ブースの設営・管理及び出展事業者へのサポート業務委託に係る公募型プロポーザルの実施について",
+      "context": "【質問への回答を掲載しました】大規模輸出商談会への出展における鹿児島県ブースの設営・管理及び出展事業者へのサポート業務委託に係る公募型プロポーザルの実施について",
+      "url": "http://www.pref.kagoshima.jp/ag36/yusyutsu_shodankai2026.html",
+      "source_page": "http://www.pref.kagoshima.jp/kensei/nyusatu/nyusatujoho/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "商談会",
+        "委託",
+        "実施",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "579488acf270e783",
+      "org_id": "kagoshima",
+      "org_name": "鹿児島県",
+      "org_category": "prefecture",
+      "title": "【募集終了しました】大隅観光・特産品PR事業（商談会等開催事業）業務委託に係る企画提案を募集します！！",
+      "context": "【募集終了しました】大隅観光・特産品PR事業（商談会等開催事業）業務委託に係る企画提案を募集します！！",
+      "url": "http://www.pref.kagoshima.jp/ao01/r8_osumi_tokusanhin_shoudankai.html",
+      "source_page": "http://www.pref.kagoshima.jp/kensei/nyusatu/nyusatujoho/index.html",
+      "matched_keywords": [
+        "商談会",
+        "委託",
+        "業務委託",
+        "開催"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "95a0f434b47ebabd",
+      "org_id": "kagoshima",
+      "org_name": "鹿児島県",
+      "org_category": "prefecture",
+      "title": "【募集終了】半導体関連企業人材確保・取引拡大等支援事業（海外展示会出展）業務委託の企画提案を募集します。",
+      "context": "【募集終了】半導体関連企業人材確保・取引拡大等支援事業（海外展示会出展）業務委託の企画提案を募集します。",
+      "url": "http://www.pref.kagoshima.jp/af03/r8semicon_taiwan.html",
+      "source_page": "http://www.pref.kagoshima.jp/kensei/nyusatu/nyusatujoho/index.html",
+      "matched_keywords": [
+        "委託",
+        "展示会",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "342815ce10af0734",
+      "org_id": "kagoshima",
+      "org_name": "鹿児島県",
+      "org_category": "prefecture",
+      "title": "【質問書の回答を掲載しました】欧州における商談会等への出展による販路開拓支援等業務委託（令和8年度「かごしま茶」の新たな販路開拓支援事業(かごしま茶「せいめい」研究会の活動支援））の公募について",
+      "context": "【質問書の回答を掲載しました】欧州における商談会等への出展による販路開拓支援等業務委託（令和8年度「かごしま茶」の新たな販路開拓支援事業(かごしま茶「せいめい」研究会の活動支援））の公募について",
+      "url": "http://www.pref.kagoshima.jp/ag06/seimei2026.html",
+      "source_page": "http://www.pref.kagoshima.jp/kensei/nyusatu/nyusatujoho/index.html",
+      "matched_keywords": [
+        "公募",
+        "商談会",
+        "委託",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "9657c6f21befbc39",
+      "org_id": "hokkaido",
+      "org_name": "北海道",
+      "org_category": "prefecture",
+      "title": "総合評価一般競争入札の実施について（令和8年度データセンター集積推進事業（関連企業立地支援(展示会出展)）委託業務）",
+      "context": "2026年7月15日 総合評価一般競争入札の実施について（令和8年度データセンター集積推進事業（関連企業立地支援(展示会出展)）委託業務）",
+      "url": "https://www.pref.hokkaido.lg.jp/kz/ssg/264705.html",
+      "source_page": "https://www.pref.hokkaido.lg.jp/news/nyusatsu/",
+      "matched_keywords": [
+        "委託",
+        "実施",
+        "展示会"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "d51fa68a64bbc17e",
+      "org_id": "hokkaido",
+      "org_name": "北海道",
+      "org_category": "prefecture",
+      "title": "【終了しました】令和８年度半導体関連産業に係る複合拠点化事業（道外展示会への出展）委託業務　総合評価一般競争入札の実施",
+      "context": "2026年6月23日 【終了しました】令和８年度半導体関連産業に係る複合拠点化事業（道外展示会への出展）委託業務　総合評価一般競争入札の実施",
+      "url": "https://www.pref.hokkaido.lg.jp/kz/zhs/258301.html",
+      "source_page": "https://www.pref.hokkaido.lg.jp/news/nyusatsu/",
+      "matched_keywords": [
+        "委託",
+        "実施",
+        "展示会"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    }
+  ]
 }
