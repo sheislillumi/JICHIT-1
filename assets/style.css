@@ -149,6 +149,18 @@ th {
 
 tr:last-child td { border-bottom: none; }
 
+/* 締切日・金額・初出日・最終確認日・元ページは短い値なので折り返さない。
+   案件・団体・マッチキーワードのような元々長い列には影響させないよう
+   .listing-table 内の列位置で個別に指定する(はみ出た分は table-wrap の
+   overflow-x: auto で横スクロールに委ねる)。 */
+.listing-table td:nth-child(4),
+.listing-table td:nth-child(5),
+.listing-table td:nth-child(6),
+.listing-table td:nth-child(7),
+.listing-table td:nth-child(8) {
+  white-space: nowrap;
+}
+
 .badge {
   display: inline-block;
   padding: 2px 8px;
