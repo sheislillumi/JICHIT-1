@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T00:12:15Z",
+  "generated_at": "2026-07-17T00:48:43Z",
   "items": [
     {
       "id": "d2bad0b47aa02608",
@@ -13,7 +13,7 @@
       "matched_keywords": [
         "プロポーザル",
         "公募",
-        "商談会",
+        "商談",
         "委託",
         "実施",
         "業務委託"
@@ -31,7 +31,7 @@
       "url": "http://www.pref.kagoshima.jp/ao01/r8_osumi_tokusanhin_shoudankai.html",
       "source_page": "http://www.pref.kagoshima.jp/kensei/nyusatu/nyusatujoho/index.html",
       "matched_keywords": [
-        "商談会",
+        "商談",
         "委託",
         "業務委託",
         "開催"
@@ -50,7 +50,7 @@
       "source_page": "http://www.pref.kagoshima.jp/kensei/nyusatu/nyusatujoho/index.html",
       "matched_keywords": [
         "委託",
-        "展示会",
+        "展示",
         "業務委託"
       ],
       "first_seen": "2026-07-17",
@@ -67,8 +67,490 @@
       "source_page": "http://www.pref.kagoshima.jp/kensei/nyusatu/nyusatujoho/index.html",
       "matched_keywords": [
         "公募",
-        "商談会",
+        "商談",
         "委託",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "927990eff68d747d",
+      "org_id": "kouiki_kansai",
+      "org_name": "関西広域連合",
+      "org_category": "partner",
+      "title": "大阪・関西万博 関西パビリオン展示・運営業務公募型プロポーザルの最優秀提案事業者の選定結果について",
+      "context": "大阪・関西万博 関西パビリオン展示・運営業務公募型プロポーザルの最優秀提案事業者の選定結果について",
+      "url": "https://www.kouiki-kansai.jp/nyusatsu/9722.html",
+      "source_page": "https://www.kouiki-kansai.jp/nyusatsu/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "展示",
+        "運営"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "79bf7750eef00938",
+      "org_id": "kouiki_kansai",
+      "org_name": "関西広域連合",
+      "org_category": "partner",
+      "title": "「大阪・関西万博 関西パビリオン展示・運営業務公募型プロポーザル」の実施について",
+      "context": "「大阪・関西万博 関西パビリオン展示・運営業務公募型プロポーザル」の実施について",
+      "url": "https://www.kouiki-kansai.jp/nyusatsu/9670.html",
+      "source_page": "https://www.kouiki-kansai.jp/nyusatsu/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "実施",
+        "展示",
+        "運営"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "a12ea5010ab7871c",
+      "org_id": "kouiki_kansai",
+      "org_name": "関西広域連合",
+      "org_category": "partner",
+      "title": "大阪・関西万博 関西パビリオン展示設計・運営計画策定支援業務公募型プロポーザルの最優秀提案事業者の選定結果について",
+      "context": "大阪・関西万博 関西パビリオン展示設計・運営計画策定支援業務公募型プロポーザルの最優秀提案事業者の選定結果について",
+      "url": "https://www.kouiki-kansai.jp/nyusatsu/8167.html",
+      "source_page": "https://www.kouiki-kansai.jp/nyusatsu/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "展示",
+        "運営"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "2a2eb391603631f0",
+      "org_id": "kouiki_kansai",
+      "org_name": "関西広域連合",
+      "org_category": "partner",
+      "title": "「大阪・関西万博 関西パビリオン展示設計・運営計画策定支援業務公募型プロポーザル」の実施について",
+      "context": "「大阪・関西万博 関西パビリオン展示設計・運営計画策定支援業務公募型プロポーザル」の実施について",
+      "url": "https://www.kouiki-kansai.jp/nyusatsu/8075.html",
+      "source_page": "https://www.kouiki-kansai.jp/nyusatsu/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "実施",
+        "展示",
+        "運営"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "c98013d6c8fcfc7a",
+      "org_id": "akita",
+      "org_name": "秋田県",
+      "org_category": "prefecture",
+      "title": "第５０回全国高等学校総合文化祭展示３部門作品の保管、輸送及び展示等業務委託に係る企画提案競技の審査結果について",
+      "context": "第５０回全国高等学校総合文化祭展示３部門作品の保管、輸送及び展示等業務委託に係る企画提案競技の審査結果について [ 2026年03月17日 ]",
+      "url": "https://www.pref.akita.lg.jp/pages/archive/94639",
+      "source_page": "https://www.pref.akita.lg.jp/pages/genre/12121",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "a8335c2898871ff4",
+      "org_id": "akita",
+      "org_name": "秋田県",
+      "org_category": "prefecture",
+      "title": "第５０回全国高等学校総合文化祭展示３部門作品の保管、輸送及び展示等業務委託に係る企画提案競技に関する質問への回答",
+      "context": "第５０回全国高等学校総合文化祭展示３部門作品の保管、輸送及び展示等業務委託に係る企画提案競技に関する質問への回答 [ 2026年02月17日 ]",
+      "url": "https://www.pref.akita.lg.jp/pages/archive/94008",
+      "source_page": "https://www.pref.akita.lg.jp/pages/genre/12121",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "4537e2928f1f9bb6",
+      "org_id": "akita",
+      "org_name": "秋田県",
+      "org_category": "prefecture",
+      "title": "第５０回全国高等学校総合文化祭展示３部門作品の保管、輸送及び展示等業務委託に係る企画提案競技の実施について",
+      "context": "第５０回全国高等学校総合文化祭展示３部門作品の保管、輸送及び展示等業務委託に係る企画提案競技の実施について [ 2026年02月06日 ]",
+      "url": "https://www.pref.akita.lg.jp/pages/archive/93804",
+      "source_page": "https://www.pref.akita.lg.jp/pages/genre/12121",
+      "matched_keywords": [
+        "委託",
+        "実施",
+        "展示",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "d790766b438d631f",
+      "org_id": "tochigi",
+      "org_name": "栃木県",
+      "org_category": "prefecture",
+      "title": "栃木県新防災教育施設展示製作等業務委託の一般競争入札の結果について",
+      "context": "栃木県新防災教育施設展示製作等業務委託の一般競争入札の結果について",
+      "url": "https://www.pref.tochigi.lg.jp/l02/shinbousaikyouikushisetsunyusatsukekka202606.html",
+      "source_page": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "96a0c71fcf231cff",
+      "org_id": "tochigi",
+      "org_name": "栃木県",
+      "org_category": "prefecture",
+      "title": "栃木県新防災教育施設展示製作等業務委託の入札について",
+      "context": "栃木県新防災教育施設展示製作等業務委託の入札について",
+      "url": "https://www.pref.tochigi.lg.jp/l02/shinbousaikyouikushisetsunyusatsu202606.html",
+      "source_page": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "12ba2c2c4805e290",
+      "org_id": "tochigi",
+      "org_name": "栃木県",
+      "org_category": "prefecture",
+      "title": "令和８(2026)年度栃木県観光情報商談会運営等業務委託公募型プロポーザルの審査結果について",
+      "context": "令和８(2026)年度栃木県観光情報商談会運営等業務委託公募型プロポーザルの審査結果について",
+      "url": "https://www.pref.tochigi.lg.jp/f05/kanko/kanko/2026shodankekka.html",
+      "source_page": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "商談",
+        "委託",
+        "業務委託",
+        "運営"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "3cdc83527ffc2928",
+      "org_id": "tochigi",
+      "org_name": "栃木県",
+      "org_category": "prefecture",
+      "title": "令和８(2026)年度栃木県観光情報商談会運営等業務委託公募型プロポーザルに係る質問内容及び回答について",
+      "context": "令和８(2026)年度栃木県観光情報商談会運営等業務委託公募型プロポーザルに係る質問内容及び回答について",
+      "url": "https://www.pref.tochigi.lg.jp/f05/kanko/kanko/2026shodan_shitsumon.html",
+      "source_page": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "商談",
+        "委託",
+        "業務委託",
+        "運営"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "909a261d4e2af1ca",
+      "org_id": "tochigi",
+      "org_name": "栃木県",
+      "org_category": "prefecture",
+      "title": "令和８(2026)年度栃木県観光情報商談会運営等業務公募型プロポーザルの実施について",
+      "context": "令和８(2026)年度栃木県観光情報商談会運営等業務公募型プロポーザルの実施について",
+      "url": "https://www.pref.tochigi.lg.jp/f05/kanko/kanko/2026shodan.html",
+      "source_page": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "商談",
+        "実施",
+        "運営"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "7150d304bd64cdd5",
+      "org_id": "tochigi",
+      "org_name": "栃木県",
+      "org_category": "prefecture",
+      "title": "「とちぎの伝統工芸品マッチング商談会」開催業務委託公募型プロポーザルの審査結果について",
+      "context": "「とちぎの伝統工芸品マッチング商談会」開催業務委託公募型プロポーザルの審査結果について",
+      "url": "https://www.pref.tochigi.lg.jp/f02/chiiki/kougeihin/r7/maching_kekka.html",
+      "source_page": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "商談",
+        "委託",
+        "業務委託",
+        "開催"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "c512e0eb82a654b8",
+      "org_id": "tochigi",
+      "org_name": "栃木県",
+      "org_category": "prefecture",
+      "title": "第74回関東東海花の展覧会栃木県特別展示等業務委託公募型プロポーザルの審査結果について",
+      "context": "第74回関東東海花の展覧会栃木県特別展示等業務委託公募型プロポーザルの審査結果について",
+      "url": "https://www.pref.tochigi.lg.jp/g05/kajukaki_event/74kankaten_shinsakekka.html",
+      "source_page": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "70bd48195ff08416",
+      "org_id": "aichi",
+      "org_name": "愛知県",
+      "org_category": "prefecture",
+      "title": "航空宇宙産業展示会・商談会出展支援の委託事業者を募集します",
+      "context": "2026年4月21日更新 航空宇宙産業展示会・商談会出展支援の委託事業者を募集します 次世代モビリティ産業課",
+      "url": "https://www.pref.aichi.jp/soshiki/jisedai/aerospace-exhibition2026.html",
+      "source_page": "https://www.pref.aichi.jp/life/5/19/66/",
+      "matched_keywords": [
+        "商談",
+        "委託",
+        "展示",
+        "産業展"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "5d93eb2fee660d03",
+      "org_id": "aichi",
+      "org_name": "愛知県",
+      "org_category": "prefecture",
+      "title": "次世代モビリティ産業課",
+      "context": "2026年4月21日更新 航空宇宙産業展示会・商談会出展支援の委託事業者を募集します 次世代モビリティ産業課",
+      "url": "https://www.pref.aichi.jp/soshiki/jisedai/",
+      "source_page": "https://www.pref.aichi.jp/life/5/19/66/",
+      "matched_keywords": [
+        "商談",
+        "委託",
+        "展示",
+        "産業展"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "3155d613ace5bd65",
+      "org_id": "aichi",
+      "org_name": "愛知県",
+      "org_category": "prefecture",
+      "title": "（質問及び回答を追加しました）あいち創業館団体用展示ガイド及びイベント開催業務の委託事業者を募集します",
+      "context": "2026年2月20日更新 （質問及び回答を追加しました）あいち創業館団体用展示ガイド及びイベント開催業務の委託事業者を募集します スタートアップ推進課",
+      "url": "https://www.pref.aichi.jp/soshiki/startup/aichi-sogyokan-guide-event-2026rev1.html",
+      "source_page": "https://www.pref.aichi.jp/life/5/19/66/",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "開催"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "1b67cab12de0b328",
+      "org_id": "aichi",
+      "org_name": "愛知県",
+      "org_category": "prefecture",
+      "title": "スタートアップ推進課",
+      "context": "2026年2月20日更新 （質問及び回答を追加しました）あいち創業館団体用展示ガイド及びイベント開催業務の委託事業者を募集します スタートアップ推進課",
+      "url": "https://www.pref.aichi.jp/soshiki/startup/",
+      "source_page": "https://www.pref.aichi.jp/life/5/19/66/",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "開催"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "cc7cc94e80b7ca57",
+      "org_id": "aichi",
+      "org_name": "愛知県",
+      "org_category": "prefecture",
+      "title": "あいち創業館団体用展示ガイド及びイベント開催業務の委託事業者を募集します",
+      "context": "2026年2月12日更新 あいち創業館団体用展示ガイド及びイベント開催業務の委託事業者を募集します スタートアップ推進課",
+      "url": "https://www.pref.aichi.jp/soshiki/startup/aichi-sogyokan-guide-event-2026.html",
+      "source_page": "https://www.pref.aichi.jp/life/5/19/66/",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "開催"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "83076888ba14a949",
+      "org_id": "aichi",
+      "org_name": "愛知県",
+      "org_category": "prefecture",
+      "title": "2024年度「新あいち創造研究開発成果展示会開催事業」業務委託先を募集します",
+      "context": "2024年2月15日更新 2024年度「新あいち創造研究開発成果展示会開催事業」業務委託先を募集します 産業科学技術課",
+      "url": "https://www.pref.aichi.jp/soshiki/san-kagi/aime2024.html",
+      "source_page": "https://www.pref.aichi.jp/life/5/19/66/",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託",
+        "開催"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "4576c595fccfaf7e",
+      "org_id": "aichi",
+      "org_name": "愛知県",
+      "org_category": "prefecture",
+      "title": "産業科学技術課",
+      "context": "2024年2月15日更新 2024年度「新あいち創造研究開発成果展示会開催事業」業務委託先を募集します 産業科学技術課",
+      "url": "https://www.pref.aichi.jp/soshiki/san-kagi/",
+      "source_page": "https://www.pref.aichi.jp/life/5/19/66/",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託",
+        "開催"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "a37459ccff108874",
+      "org_id": "ehime",
+      "org_name": "愛媛県",
+      "org_category": "prefecture",
+      "title": "紫電改展示館デジタル展示等製作業務に係る企画提案（プロポーザル）の実施について",
+      "context": "2026年5月28日 紫電改展示館デジタル展示等製作業務に係る企画提案（プロポーザル）の実施について",
+      "url": "https://www.pref.ehime.jp/site/nyusatsu/146624.html",
+      "source_page": "https://www.pref.ehime.jp/site/nyusatsu/list92-339.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "実施",
+        "展示"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "1b5d03f01476bf37",
+      "org_id": "ehime",
+      "org_name": "愛媛県",
+      "org_category": "prefecture",
+      "title": "「すごモノ」等大都市圏展示会出展業務公募型プロポーザルの実施について",
+      "context": "2026年5月19日 「すごモノ」等大都市圏展示会出展業務公募型プロポーザルの実施について",
+      "url": "https://www.pref.ehime.jp/site/nyusatsu/108227.html",
+      "source_page": "https://www.pref.ehime.jp/site/nyusatsu/list92-339.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "実施",
+        "展示"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "eb355c2f2c68bac8",
+      "org_id": "ehime",
+      "org_name": "愛媛県",
+      "org_category": "prefecture",
+      "title": "愛媛県美術館　美術館文化観光推進事業 サテライト展示用キット等制作業務企画提案公募の実施結果について",
+      "context": "2025年9月11日 愛媛県美術館　美術館文化観光推進事業 サテライト展示用キット等制作業務企画提案公募の実施結果について",
+      "url": "https://www.pref.ehime.jp/site/nyusatsu/122621.html",
+      "source_page": "https://www.pref.ehime.jp/site/nyusatsu/list92-339.html",
+      "matched_keywords": [
+        "公募",
+        "実施",
+        "展示"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "3f807159598f4352",
+      "org_id": "ehime",
+      "org_name": "愛媛県",
+      "org_category": "prefecture",
+      "title": "令和7年度大型展示会への県ブース出展等支援事業受託者の募集について",
+      "context": "2025年3月10日 令和7年度大型展示会への県ブース出展等支援事業受託者の募集について",
+      "url": "https://www.pref.ehime.jp/site/nyusatsu/102619.html",
+      "source_page": "https://www.pref.ehime.jp/site/nyusatsu/list92-339.html",
+      "matched_keywords": [
+        "受託者",
+        "展示"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "52519990492059e5",
+      "org_id": "ehime",
+      "org_name": "愛媛県",
+      "org_category": "prefecture",
+      "title": "令和6年度大型展示会への県ブース出展等支援事業受託者の募集について",
+      "context": "2024年4月3日 令和6年度大型展示会への県ブース出展等支援事業受託者の募集について",
+      "url": "https://www.pref.ehime.jp/site/nyusatsu/67668.html",
+      "source_page": "https://www.pref.ehime.jp/site/nyusatsu/list92-339.html",
+      "matched_keywords": [
+        "受託者",
+        "展示"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "76347181c24585c1",
+      "org_id": "chiba",
+      "org_name": "千葉県",
+      "org_category": "prefecture",
+      "title": "千葉県水産総合研究センター種苗生産研究所展示室リニューアル計画策定業務委託に係る企画提案の募集について",
+      "context": "千葉県水産総合研究センター種苗生産研究所展示室リニューアル計画策定業務委託に係る企画提案の募集について",
+      "url": "https://www.pref.chiba.lg.jp/lab-suisan/suisan/soshiki/futtsu/r8_proposal.html",
+      "source_page": "https://www.pref.chiba.lg.jp/nyuu-kei/buppin-itaku/nyuusatsukoukoku/index.html",
+      "matched_keywords": [
+        "委託",
+        "展示",
         "業務委託"
       ],
       "first_seen": "2026-07-17",
@@ -86,7 +568,7 @@
       "matched_keywords": [
         "委託",
         "実施",
-        "展示会"
+        "展示"
       ],
       "first_seen": "2026-07-17",
       "last_seen": "2026-07-17"
@@ -103,7 +585,7 @@
       "matched_keywords": [
         "委託",
         "実施",
-        "展示会"
+        "展示"
       ],
       "first_seen": "2026-07-17",
       "last_seen": "2026-07-17"

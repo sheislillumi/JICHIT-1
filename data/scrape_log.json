@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-17T00:12:15Z",
-  "org_count": 52,
+  "generated_at": "2026-07-17T00:48:43Z",
+  "org_count": 45,
   "error_count": 0,
   "new_items_today": 0,
-  "matched_today": 6,
+  "matched_today": 33,
   "entries": [
     {
       "org_id": "hokkaido",
@@ -12,34 +12,34 @@
       "status": "ok",
       "error": null,
       "matched_count": 2,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "aomori",
       "org_name": "青森県",
-      "url": "https://www.pref.aomori.lg.jp/koho/nyusatsu_iriguchi.html",
+      "url": "https://www.pref.aomori.lg.jp/boshu/",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "iwate",
       "org_name": "岩手県",
-      "url": "https://www.pref.iwate.jp/kensei/nyuusatsu/index.html",
+      "url": "https://www.pref.iwate.jp/kensei/nyuusatsu/1010807/index.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "miyagi",
       "org_name": "宮城県",
-      "url": "https://www.pref.miyagi.jp/life/8/40/",
+      "url": "https://www.pref.miyagi.jp/life/8/40/122/index.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "akita",
@@ -47,89 +47,53 @@
       "url": "https://www.pref.akita.lg.jp/pages/genre/12121",
       "status": "ok",
       "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "matched_count": 3,
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "yamagata",
       "org_name": "山形県",
-      "url": "https://www.pref.yamagata.jp/kensei/nyuusatsujouhou/nyuusatsujouhou/index.html",
+      "url": "https://www.pref.yamagata.jp/kensei/nyuusatsujouhou/nyuusatsujouhou/gyoumuitaku/itkpref/index.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "fukushima",
       "org_name": "福島県",
-      "url": "https://www.pref.fukushima.lg.jp/sec/01115c/nyusatsujoho.html",
+      "url": "https://www.pref.fukushima.lg.jp/sec/01115a/somubu-nyusatsu.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
-    },
-    {
-      "org_id": "ibaraki",
-      "org_name": "茨城県",
-      "url": "https://www.pref.ibaraki.jp/shiru/nyusatsu-chotatsu/index.html",
-      "status": "ok",
-      "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "tochigi",
       "org_name": "栃木県",
-      "url": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/index.html",
+      "url": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",
       "status": "ok",
       "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "matched_count": 7,
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "gunma",
       "org_name": "群馬県",
-      "url": "https://www.pref.gunma.jp/site/nyuusatsu/",
+      "url": "https://www.pref.gunma.jp/site/nyuusatsu/list135-773.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
-    },
-    {
-      "org_id": "saitama_pref",
-      "org_name": "埼玉県",
-      "url": "https://www.pref.saitama.lg.jp/a0212/densinyusatsu/index.html",
-      "status": "ok",
-      "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "chiba",
       "org_name": "千葉県",
-      "url": "https://www.pref.chiba.lg.jp/nyuu-kei/kensetsukouji/nyuusatsukoukoku/index.html",
+      "url": "https://www.pref.chiba.lg.jp/nyuu-kei/buppin-itaku/nyuusatsukoukoku/index.html",
       "status": "ok",
       "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
-    },
-    {
-      "org_id": "tokyo",
-      "org_name": "東京都",
-      "url": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-      "status": "ok",
-      "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
-    },
-    {
-      "org_id": "kanagawa",
-      "org_name": "神奈川県",
-      "url": "https://nyusatsu.e-kanagawa.lg.jp/html/nyuusatsu_jouhou.html",
-      "status": "ok",
-      "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "matched_count": 1,
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "niigata",
@@ -138,52 +102,34 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "toyama",
       "org_name": "富山県",
-      "url": "https://www.pref.toyama.jp/sangyou/nyuusatsu/jouhou/index.html",
+      "url": "https://www.pref.toyama.jp/sangyou/nyuusatsu/jouhou/ekimu/joho.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
-    },
-    {
-      "org_id": "ishikawa",
-      "org_name": "石川県",
-      "url": "https://www.pref.ishikawa.lg.jp/kanri/cals-ec/bidding_information.html",
-      "status": "ok",
-      "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
-    },
-    {
-      "org_id": "fukui",
-      "org_name": "福井県",
-      "url": "https://www2.ebid.pref.fukui.jp/ebidPPIPublish/EjPPIj",
-      "status": "ok",
-      "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "yamanashi",
       "org_name": "山梨県",
-      "url": "https://www.pref.yamanashi.jp/nyusatsu_chotatsu/",
+      "url": "https://www.pref.yamanashi.jp/shinchaku/kokoku/index.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "nagano",
       "org_name": "長野県",
-      "url": "https://www.pref.nagano.lg.jp/kensei/nyusatsu/index.html",
+      "url": "https://www.pref.nagano.lg.jp/kensa/kensei/nyusatsu/buppin/index.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "gifu",
@@ -192,52 +138,43 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "shizuoka",
       "org_name": "静岡県",
-      "url": "https://www.pref.shizuoka.jp/kensei/nyusatsukobai/index.html",
+      "url": "https://www.pref.shizuoka.jp/kensei/nyusatsukobai/nyusatsuchiji/index.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "aichi",
       "org_name": "愛知県",
-      "url": "https://www.pref.aichi.jp/life/5/19/",
+      "url": "https://www.pref.aichi.jp/life/5/19/66/",
       "status": "ok",
       "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
-    },
-    {
-      "org_id": "mie",
-      "org_name": "三重県",
-      "url": "https://www.pref.mie.lg.jp/ebid-mie/",
-      "status": "ok",
-      "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "matched_count": 7,
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "shiga",
       "org_name": "滋賀県",
-      "url": "https://www.pref.shiga.lg.jp/zigyousya/nyusatsubaikyaku/",
+      "url": "https://www.pref.shiga.lg.jp/zigyousya/nyusatsubaikyaku/itaku/",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "kyoto",
       "org_name": "京都府",
-      "url": "https://www.pref.kyoto.jp/sangyoshigoto/nyusatsu/index.html",
+      "url": "https://info.pref.kyoto.lg.jp/e-buppin/POEg/guest/generalPublishedMatterTopAction.do",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "osaka",
@@ -246,25 +183,25 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "hyogo",
       "org_name": "兵庫県",
-      "url": "https://web.pref.hyogo.lg.jp/pref/cate3_625.html",
+      "url": "https://web.pref.hyogo.lg.jp/bid/bid_opn_02.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "nara",
       "org_name": "奈良県",
-      "url": "https://www.pref.nara.lg.jp/n133/4283.html",
+      "url": "https://www.pref.nara.lg.jp/n133/4281.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "wakayama",
@@ -273,7 +210,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "tottori",
@@ -282,7 +219,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "shimane",
@@ -291,7 +228,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "okayama",
@@ -300,16 +237,16 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "hiroshima",
       "org_name": "広島県",
-      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/list945-4041.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "yamaguchi",
@@ -318,16 +255,16 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "tokushima",
       "org_name": "徳島県",
-      "url": "https://www.pref.tokushima.lg.jp/jigyoshanokata/nyusatsu",
+      "url": "https://www.pref.tokushima.lg.jp/jigyoshanokata/nyusatsu/itaku",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "kagawa",
@@ -336,34 +273,34 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "ehime",
       "org_name": "愛媛県",
-      "url": "https://www.pref.ehime.jp/site/nyusatsu/",
+      "url": "https://www.pref.ehime.jp/site/nyusatsu/list92-339.html",
       "status": "ok",
       "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "matched_count": 5,
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "kochi",
       "org_name": "高知県",
-      "url": "https://www.pref.kochi.lg.jp/doc/nyuusatujouhou-index/",
+      "url": "https://www.pref.kochi.lg.jp/category/bunya/shigoto_sangyo/nyusatsujoho/ippankyosonyusatsu_proposal/",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "fukuoka",
       "org_name": "福岡県",
-      "url": "https://www.pref.fukuoka.lg.jp/life/8/63/",
+      "url": "https://www.pref.fukuoka.lg.jp/life/8/63/281/",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "saga",
@@ -372,7 +309,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "nagasaki",
@@ -381,16 +318,16 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "kumamoto",
       "org_name": "熊本県",
-      "url": "https://www.pref.kumamoto.jp/life/sub/5/",
+      "url": "https://www.pref.kumamoto.jp/life/sub/5/34/",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "oita",
@@ -399,7 +336,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "miyazaki",
@@ -408,7 +345,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "kagoshima",
@@ -417,16 +354,16 @@
       "status": "ok",
       "error": null,
       "matched_count": 4,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "okinawa",
       "org_name": "沖縄県",
-      "url": "https://www.pref.okinawa.jp/shigoto/nyusatsukeiyaku/1015342/index.html",
+      "url": "https://www.pref.okinawa.jp/shigoto/nyusatsukeiyaku/1015342/1025082/index.html",
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "saitama_j",
@@ -435,7 +372,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "jfc",
@@ -444,7 +381,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "kouiki_kansai",
@@ -452,8 +389,8 @@
       "url": "https://www.kouiki-kansai.jp/nyusatsu/index.html",
       "status": "ok",
       "error": null,
-      "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "matched_count": 4,
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "shiga_sci",
@@ -462,7 +399,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     },
     {
       "org_id": "zennoh",
@@ -471,7 +408,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T00:12:15Z"
+      "checked_at": "2026-07-17T00:48:43Z"
     }
   ]
 }
