@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T04:40:04Z",
+  "generated_at": "2026-07-17T05:19:32Z",
   "items": [
     {
       "id": "d2bad0b47aa02608",
@@ -19,7 +19,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "579488acf270e783",
@@ -37,7 +40,10 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "95a0f434b47ebabd",
@@ -54,7 +60,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "342815ce10af0734",
@@ -73,7 +82,10 @@
         "販路開拓"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "8580532c1b2514bb",
@@ -93,7 +105,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "625c72dec6328237",
@@ -110,7 +125,10 @@
         "販売促進"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "8eef831c01c646c3",
@@ -127,7 +145,10 @@
         "公募"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "32ba9b661fe470dc",
@@ -144,7 +165,10 @@
         "公募"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "927990eff68d747d",
@@ -162,7 +186,10 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "79bf7750eef00938",
@@ -181,7 +208,10 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "a12ea5010ab7871c",
@@ -199,7 +229,10 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "2a2eb391603631f0",
@@ -218,7 +251,10 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "78a72c8362f3b33d",
@@ -236,7 +272,10 @@
         "販路拡大"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "f26438a73f2d81ca",
@@ -254,7 +293,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "482ca1afe98d8bb9",
@@ -272,7 +314,10 @@
         "販路開拓"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "c98013d6c8fcfc7a",
@@ -289,7 +334,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "a8335c2898871ff4",
@@ -306,7 +354,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "4537e2928f1f9bb6",
@@ -324,7 +375,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "93cb8d4cd0746cfa",
@@ -340,7 +394,10 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "c14a4574cf5450d6",
@@ -359,7 +416,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "d790766b438d631f",
@@ -376,7 +436,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "51ea6da93b4d1853",
@@ -396,7 +459,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "96a0c71fcf231cff",
@@ -413,7 +479,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "12ba2c2c4805e290",
@@ -433,7 +502,10 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "3cdc83527ffc2928",
@@ -453,7 +525,10 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "909a261d4e2af1ca",
@@ -472,7 +547,10 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "7150d304bd64cdd5",
@@ -493,7 +571,10 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "c512e0eb82a654b8",
@@ -512,7 +593,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "87497e7b6ff2564d",
@@ -529,7 +613,10 @@
         "流通拡大"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "70bd48195ff08416",
@@ -547,7 +634,10 @@
         "産業展"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "5d93eb2fee660d03",
@@ -565,7 +655,10 @@
         "産業展"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "3155d613ace5bd65",
@@ -582,7 +675,10 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "1b67cab12de0b328",
@@ -599,7 +695,10 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "cc7cc94e80b7ca57",
@@ -616,7 +715,10 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "83076888ba14a949",
@@ -634,7 +736,10 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "4576c595fccfaf7e",
@@ -652,7 +757,10 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "a37459ccff108874",
@@ -669,7 +777,10 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "1b5d03f01476bf37",
@@ -687,7 +798,10 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "e6f49b92059bf167",
@@ -703,7 +817,10 @@
         "販路開拓"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "2752c42380285009",
@@ -721,7 +838,10 @@
         "実施"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "eb355c2f2c68bac8",
@@ -738,7 +858,10 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "3f807159598f4352",
@@ -754,7 +877,10 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "52519990492059e5",
@@ -770,7 +896,10 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "8ba1b705e769d3ec",
@@ -786,7 +915,10 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "530b381078e74984",
@@ -805,7 +937,10 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "76347181c24585c1",
@@ -822,7 +957,10 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "9657c6f21befbc39",
@@ -839,7 +977,10 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "989293c0f7c0e614",
@@ -856,7 +997,10 @@
         "販路拡大"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "e76be5e89af2c3a2",
@@ -874,7 +1018,10 @@
         "販路拡大"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "653feb66ee750436",
@@ -892,7 +1039,10 @@
         "販路拡大"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "32cf7e47d32e75c5",
@@ -909,7 +1059,10 @@
         "販路拡大"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "6f8db1541e0516fb",
@@ -925,7 +1078,10 @@
         "販路拡大"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     },
     {
       "id": "d51fa68a64bbc17e",
@@ -942,7 +1098,10 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null
     }
   ]
 }

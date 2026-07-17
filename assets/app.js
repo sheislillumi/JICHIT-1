@@ -158,6 +158,15 @@
       if (sort === "new") return b.first_seen.localeCompare(a.first_seen);
       if (sort === "recent") return b.last_seen.localeCompare(a.last_seen);
       if (sort === "org") return a.org_name.localeCompare(b.org_name, "ja");
+      if (sort === "deadline_asc" || sort === "deadline_desc") {
+        // 締切日が不明なアイテムは並び順に関わらず常に末尾へ回す。
+        if (!a.deadline_date && !b.deadline_date) return 0;
+        if (!a.deadline_date) return 1;
+        if (!b.deadline_date) return -1;
+        return sort === "deadline_asc"
+          ? a.deadline_date.localeCompare(b.deadline_date)
+          : b.deadline_date.localeCompare(a.deadline_date);
+      }
       return 0;
     });
 
@@ -213,6 +222,24 @@
         kwTd.appendChild(chip);
       });
       tr.appendChild(kwTd);
+
+      const deadlineTd = document.createElement("td");
+      if (item.deadline_date) {
+        deadlineTd.textContent = item.deadline_date;
+        if (item.deadline_raw && item.deadline_raw !== item.deadline_date) {
+          const raw = document.createElement("div");
+          raw.className = "item-context";
+          raw.textContent = item.deadline_raw;
+          deadlineTd.appendChild(raw);
+        }
+      } else {
+        deadlineTd.textContent = "-";
+      }
+      tr.appendChild(deadlineTd);
+
+      const amountTd = document.createElement("td");
+      amountTd.textContent = item.amount_raw || "-";
+      tr.appendChild(amountTd);
 
       const firstTd = document.createElement("td");
       firstTd.textContent = item.first_seen;

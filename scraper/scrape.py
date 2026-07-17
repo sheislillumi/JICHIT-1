@@ -62,6 +62,125 @@ NEGATIVE_KEYWORDS = ["ふるさと納税", "人材", "雇用"]
 
 TEXT_TAGS = ["li", "tr", "p", "div", "dd", "article"]
 
+# ---------------------------------------------------------------------------
+# 締切日・金額のベストエフォート抽出
+#
+# 一覧ページの周辺テキストだけを対象にした正規表現ベースの抽出であり、
+# 詳細ページ/PDFにしか書かれていない場合は拾えず null になる。100%網羅は
+# 目指さず、拾えたものはダッシュボードの参考情報として表示する用途。
+# ---------------------------------------------------------------------------
+
+REIWA_EPOCH = 2018  # 令和N年 = 2018+N 年 (令和1年=2019年)
+
+# 和暦(令和) / 西暦(年月日) / 西暦(区切り文字) / 年省略、の優先順で1つの正規表現にまとめる。
+# finditer は左から非重複で走査するため、年付きの表記が年省略パターンより先に
+# マッチしていれば、その一部(月日)だけが二重にマッチすることはない。
+DATE_RE = re.compile(
+    r"令和(?P<rey>\d{1,2})年(?P<rem>\d{1,2})月(?P<red>\d{1,2})日"
+    r"|[RrＲｒ](?P<ry>\d{1,2})[・./\-](?P<rm>\d{1,2})[・./\-](?P<rd>\d{1,2})"
+    r"|(?P<wy>\d{4})年(?P<wm>\d{1,2})月(?P<wd>\d{1,2})日"
+    r"|(?P<sy>\d{4})[/\-](?P<sm>\d{1,2})[/\-](?P<sd>\d{1,2})"
+    r"|(?P<bm>\d{1,2})月(?P<bd>\d{1,2})日"
+)
+
+DEADLINE_KEYWORDS = [
+    "締切", "締め切り", "応募期限", "提出期限", "受付期間", "受付締切", "公募期間", "期限",
+]
+DEADLINE_WINDOW = 30
+
+# 「11,000,000円」「1,100万円」のような金額表記
+AMOUNT_RE = re.compile(r"\d[\d,]*(?:\.\d+)?万?円")
+AMOUNT_KEYWORDS = ["上限", "予定価格", "委託料", "契約金額", "限度額"]
+AMOUNT_WINDOW = 30
+
+
+def _date_from_match(m, current_year):
+    """DATE_RE のマッチからISO形式の日付文字列を組み立てる。不正な日付はNone。"""
+    try:
+        if m.group("rey"):
+            year = REIWA_EPOCH + int(m.group("rey"))
+            month, day = int(m.group("rem")), int(m.group("red"))
+        elif m.group("ry"):
+            year = REIWA_EPOCH + int(m.group("ry"))
+            month, day = int(m.group("rm")), int(m.group("rd"))
+        elif m.group("wy"):
+            year, month, day = int(m.group("wy")), int(m.group("wm")), int(m.group("wd"))
+        elif m.group("sy"):
+            year, month, day = int(m.group("sy")), int(m.group("sm")), int(m.group("sd"))
+        elif m.group("bm"):
+            year, month, day = current_year, int(m.group("bm")), int(m.group("bd"))
+        else:
+            return None
+        return datetime.date(year, month, day).isoformat()
+    except (ValueError, TypeError):
+        return None
+
+
+def _keyword_positions(text, keywords):
+    """各キーワードの (開始位置, 終了位置) を返す。"""
+    positions = []
+    for kw in keywords:
+        start = 0
+        while True:
+            idx = text.find(kw, start)
+            if idx == -1:
+                break
+            positions.append((idx, idx + len(kw)))
+            start = idx + 1
+    return positions
+
+
+def _nearest_match(candidates, kw_positions, window):
+    """kw_positions の直後(「期限：2026年8月15日」等)にあるマッチを優先し、
+    見つからなければ直前にあるマッチを採用する。
+
+    テーブル行のように「公開日 2026-06-01 提出期限 2026年7月20日」のような
+    無関係な日付がキーワード直前に隣接することがあるため、単純な最短距離では
+    掲載日を誤って締切日と判定してしまう。キーワード→値の語順を優先することで
+    これを避ける。
+    """
+    forward, forward_dist = None, None
+    backward, backward_dist = None, None
+    for c in candidates:
+        for kp_start, kp_end in kw_positions:
+            if c.start() >= kp_end:
+                dist = c.start() - kp_end
+                if dist <= window and (forward_dist is None or dist < forward_dist):
+                    forward, forward_dist = c, dist
+            elif c.end() <= kp_start:
+                dist = kp_start - c.end()
+                if dist <= window and (backward_dist is None or dist < backward_dist):
+                    backward, backward_dist = c, dist
+    return forward if forward is not None else backward
+
+
+def extract_deadline(text, current_year):
+    """締切キーワード近傍の日付のみを締切日として採用する(掲載日の誤検出を防ぐ)。"""
+    if not text:
+        return None, None
+    date_matches = list(DATE_RE.finditer(text))
+    if not date_matches:
+        return None, None
+    kw_positions = _keyword_positions(text, DEADLINE_KEYWORDS)
+    if not kw_positions:
+        return None, None
+    best = _nearest_match(date_matches, kw_positions, DEADLINE_WINDOW)
+    if best is None:
+        return None, None
+    return _date_from_match(best, current_year), best.group(0)
+
+
+def extract_amount(text):
+    """金額キーワード近傍を優先しつつ、見つかった金額表記をraw文字列で返す。"""
+    if not text:
+        return None
+    amount_matches = list(AMOUNT_RE.finditer(text))
+    if not amount_matches:
+        return None
+    kw_positions = _keyword_positions(text, AMOUNT_KEYWORDS)
+    best = _nearest_match(amount_matches, kw_positions, AMOUNT_WINDOW) if kw_positions else None
+    return (best or amount_matches[0]).group(0)
+
 
 def load_config():
     with open(CONFIG_PATH, encoding="utf-8") as f:
@@ -117,8 +236,11 @@ def fetch(url):
     raise last_err
 
 
-def extract_candidates(html, base_url):
+def extract_candidates(html, base_url, current_year=None):
     """ページ内のリンクとその周辺テキストから候補を抽出する。"""
+    if current_year is None:
+        current_year = datetime.date.today().year
+
     soup = BeautifulSoup(html, "lxml")
     candidates = []
     seen_local = set()
@@ -150,12 +272,18 @@ def extract_candidates(html, base_url):
             continue
         seen_local.add(dedup_key)
 
+        deadline_date, deadline_raw = extract_deadline(context_text, current_year)
+        amount_raw = extract_amount(context_text)
+
         candidates.append(
             {
                 "url": abs_url,
                 "title": title[:200],
                 "context": context_text[:400],
                 "matched_keywords": sorted(set(matched)),
+                "deadline_date": deadline_date,
+                "deadline_raw": deadline_raw,
+                "amount_raw": amount_raw,
             }
         )
     return candidates
@@ -463,6 +591,9 @@ def run():
                     existing_items[item_id]["last_seen"] = today
                     existing_items[item_id]["title"] = c["title"]
                     existing_items[item_id]["context"] = c["context"]
+                    existing_items[item_id]["deadline_date"] = c["deadline_date"]
+                    existing_items[item_id]["deadline_raw"] = c["deadline_raw"]
+                    existing_items[item_id]["amount_raw"] = c["amount_raw"]
                 else:
                     existing_items[item_id] = {
                         "id": item_id,
@@ -474,6 +605,9 @@ def run():
                         "url": c["url"],
                         "source_page": url,
                         "matched_keywords": c["matched_keywords"],
+                        "deadline_date": c["deadline_date"],
+                        "deadline_raw": c["deadline_raw"],
+                        "amount_raw": c["amount_raw"],
                         "first_seen": today,
                         "last_seen": today,
                     }
