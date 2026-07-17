@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T09:43:34Z",
+  "generated_at": "2026-07-17T21:53:05Z",
   "items": [
     {
       "id": "d2bad0b47aa02608",
@@ -436,8 +436,8 @@
         "展示",
         "業務委託"
       ],
-      "deadline_date": "2025-10-27",
-      "deadline_raw": "令和７年１０月２７日",
+      "deadline_date": null,
+      "deadline_raw": null,
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
