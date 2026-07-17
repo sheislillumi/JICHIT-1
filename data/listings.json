@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T08:26:53Z",
+  "generated_at": "2026-07-17T09:10:10Z",
   "items": [
     {
       "id": "d2bad0b47aa02608",
@@ -135,6 +135,137 @@
       "deadline_raw": "令和7年5月8日",
       "amount_raw": "1,500,000円",
       "amount_display": "1,500,000円"
+    },
+    {
+      "id": "e3d24384cabe3cd0",
+      "org_id": "tottori_cci",
+      "org_name": "鳥取商工会議所",
+      "org_category": "partner",
+      "title": "2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します",
+      "context": "2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します 2026年7月3日 お知らせ AIエージェントセミナー（AI活用実践セミナー）の開催について 2026年7月3日 検定 第237回珠算能力検定試験合格発表 2026年7月1日 お知らせ PR TIMESとの業務提携による情報発信支援について 2026年6月30日 お知らせ 【県下調査結果を追加】中東情勢等による原油・原材料価格高騰に関する緊急調査結果について 2026年6月29日 お知らせ 【鳥取商工会議所建設部会】視察研修会の参加者を募集しています（7/15締切） 2026年6月29日 検定 第173回簿記検定試験（2・3級）合格発表 2026年6月4日 お知らせ 【募集】異業種交流会「鳥取大学×地域企業 共創交流会」を開催",
+      "url": "https://tottori-cci.or.jp/21234/",
+      "source_page": "https://tottori-cci.or.jp/",
+      "matched_keywords": [
+        "バイヤー",
+        "商談",
+        "開催"
+      ],
+      "deadline_date": "2026-06-29",
+      "deadline_raw": "2026年6月29日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "85194c5f600a4e4f",
+      "org_id": "tottori_cci",
+      "org_name": "鳥取商工会議所",
+      "org_category": "partner",
+      "title": "2026年5月1日 お知らせ 【第40回グルメショー秋2026】出展者募集！",
+      "context": "2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します 2026年5月1日 お知らせ 【第40回グルメショー秋2026】出展者募集！ 2025年8月5日 商談会 【首都圏バイヤーとのWEB食品商談会】を開催します 2025年6月19日 商談会 FOOD STYLE JAPAN〈九州〉 出展者募集中！ 2024年10月11日 商談会 「省エネ機器導入促進マッチングイベント・相談会 in 広島」のご案内 2024年8月16日 商談会 首都圏バイヤーとのWEB食品商談会のご案内",
+      "url": "https://tottori-cci.or.jp/20736/",
+      "source_page": "https://tottori-cci.or.jp/",
+      "matched_keywords": [
+        "バイヤー",
+        "マッチング",
+        "商談",
+        "開催"
+      ],
+      "deadline_date": "2026-05-29",
+      "deadline_raw": "令和8年5月29日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "5f756804dd58ce28",
+      "org_id": "tottori_cci",
+      "org_name": "鳥取商工会議所",
+      "org_category": "partner",
+      "title": "2025年8月5日 商談会 【首都圏バイヤーとのWEB食品商談会】を開催します",
+      "context": "2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します 2026年5月1日 お知らせ 【第40回グルメショー秋2026】出展者募集！ 2025年8月5日 商談会 【首都圏バイヤーとのWEB食品商談会】を開催します 2025年6月19日 商談会 FOOD STYLE JAPAN〈九州〉 出展者募集中！ 2024年10月11日 商談会 「省エネ機器導入促進マッチングイベント・相談会 in 広島」のご案内 2024年8月16日 商談会 首都圏バイヤーとのWEB食品商談会のご案内",
+      "url": "https://tottori-cci.or.jp/19847/",
+      "source_page": "https://tottori-cci.or.jp/",
+      "matched_keywords": [
+        "バイヤー",
+        "マッチング",
+        "商談",
+        "開催"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "35c70e67600fa2c6",
+      "org_id": "tottori_cci",
+      "org_name": "鳥取商工会議所",
+      "org_category": "partner",
+      "title": "2025年6月19日 商談会 FOOD STYLE JAPAN〈九州〉 出展者募集中！",
+      "context": "2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します 2026年5月1日 お知らせ 【第40回グルメショー秋2026】出展者募集！ 2025年8月5日 商談会 【首都圏バイヤーとのWEB食品商談会】を開催します 2025年6月19日 商談会 FOOD STYLE JAPAN〈九州〉 出展者募集中！ 2024年10月11日 商談会 「省エネ機器導入促進マッチングイベント・相談会 in 広島」のご案内 2024年8月16日 商談会 首都圏バイヤーとのWEB食品商談会のご案内",
+      "url": "https://tottori-cci.or.jp/19700/",
+      "source_page": "https://tottori-cci.or.jp/",
+      "matched_keywords": [
+        "バイヤー",
+        "マッチング",
+        "商談",
+        "開催"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "e72b297f88bdf409",
+      "org_id": "tottori_cci",
+      "org_name": "鳥取商工会議所",
+      "org_category": "partner",
+      "title": "2024年10月11日 商談会 「省エネ機器導入促進マッチングイベント・相談会 in 広島」のご案内",
+      "context": "2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します 2026年5月1日 お知らせ 【第40回グルメショー秋2026】出展者募集！ 2025年8月5日 商談会 【首都圏バイヤーとのWEB食品商談会】を開催します 2025年6月19日 商談会 FOOD STYLE JAPAN〈九州〉 出展者募集中！ 2024年10月11日 商談会 「省エネ機器導入促進マッチングイベント・相談会 in 広島」のご案内 2024年8月16日 商談会 首都圏バイヤーとのWEB食品商談会のご案内",
+      "url": "https://tottori-cci.or.jp/19017/",
+      "source_page": "https://tottori-cci.or.jp/",
+      "matched_keywords": [
+        "バイヤー",
+        "マッチング",
+        "商談",
+        "開催"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "8e161024e8953014",
+      "org_id": "tottori_cci",
+      "org_name": "鳥取商工会議所",
+      "org_category": "partner",
+      "title": "2024年8月16日 商談会 首都圏バイヤーとのWEB食品商談会のご案内",
+      "context": "2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します 2026年5月1日 お知らせ 【第40回グルメショー秋2026】出展者募集！ 2025年8月5日 商談会 【首都圏バイヤーとのWEB食品商談会】を開催します 2025年6月19日 商談会 FOOD STYLE JAPAN〈九州〉 出展者募集中！ 2024年10月11日 商談会 「省エネ機器導入促進マッチングイベント・相談会 in 広島」のご案内 2024年8月16日 商談会 首都圏バイヤーとのWEB食品商談会のご案内",
+      "url": "https://tottori-cci.or.jp/18831/",
+      "source_page": "https://tottori-cci.or.jp/",
+      "matched_keywords": [
+        "バイヤー",
+        "マッチング",
+        "商談",
+        "開催"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
     },
     {
       "id": "3a9802ad3f5f6f99",
@@ -290,6 +421,72 @@
       "amount_display": "34,000,000円"
     },
     {
+      "id": "9de231b3932cd49c",
+      "org_id": "nagasaki_food_cluster",
+      "org_name": "長崎県食料産業クラスター協議会",
+      "org_category": "partner",
+      "title": "第６０回スーパーマーケット・トレードショー２０２６展示ブース設営等業務委託の公募型プロポーザル",
+      "context": "第６０回スーパーマーケット・トレードショー２０２６展示ブース設営等業務委託の公募型プロポーザル",
+      "url": "https://www.nagasaki-chuokai.or.jp/foodcluster/archives/1124",
+      "source_page": "https://www.nagasaki-chuokai.or.jp/foodcluster/kyougikaiinfolist",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "deadline_date": "2025-10-27",
+      "deadline_raw": "令和７年１０月２７日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "f3813adba0862f2b",
+      "org_id": "nagasaki_food_cluster",
+      "org_name": "長崎県食料産業クラスター協議会",
+      "org_category": "partner",
+      "title": "『展示会出展における成功の秘訣』セミナーの開催について(案内)",
+      "context": "『展示会出展における成功の秘訣』セミナーの開催について(案内)",
+      "url": "https://www.nagasaki-chuokai.or.jp/foodcluster/archives/888",
+      "source_page": "https://www.nagasaki-chuokai.or.jp/foodcluster/kyougikaiinfolist",
+      "matched_keywords": [
+        "展示",
+        "開催"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "da4cd0b3a95e9291",
+      "org_id": "nagasaki_food_cluster",
+      "org_name": "長崎県食料産業クラスター協議会",
+      "org_category": "partner",
+      "title": "第５９回スーパーマーケット・トレードショー２０２５展示ブース設営等業務委託の公募型プロポーザル",
+      "context": "第５９回スーパーマーケット・トレードショー２０２５展示ブース設営等業務委託の公募型プロポーザル",
+      "url": "https://www.nagasaki-chuokai.or.jp/foodcluster/archives/827",
+      "source_page": "https://www.nagasaki-chuokai.or.jp/foodcluster/kyougikaiinfolist",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "deadline_date": "2024-11-01",
+      "deadline_raw": "令和６年１１月１日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
       "id": "78a72c8362f3b33d",
       "org_id": "gunma",
       "org_name": "群馬県",
@@ -418,6 +615,291 @@
       "deadline_raw": "令和８年２月１２日",
       "amount_raw": "２８，９９０，０００円",
       "amount_display": "28,990,000円"
+    },
+    {
+      "id": "47a7818eb47371a5",
+      "org_id": "koriyama",
+      "org_name": "福島県郡山市",
+      "org_category": "partner",
+      "title": "「郡山市産米の消費拡大の推進に関する条例」に基づく広域的販売促進事業業務委託に係る公募型プロポーザルの実施について",
+      "context": "2026年6月10日更新 「郡山市産米の消費拡大の推進に関する条例」に基づく広域的販売促進事業業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.koriyama.lg.jp/site/keiyakuportal/152480.html",
+      "source_page": "https://www.city.koriyama.lg.jp/site/keiyakuportal/list87-226.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "委託",
+        "実施",
+        "業務委託",
+        "販売促進"
+      ],
+      "deadline_date": "2026-07-09",
+      "deadline_raw": "令和8年7月9日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "ccaa804d42599623",
+      "org_id": "koriyama",
+      "org_name": "福島県郡山市",
+      "org_category": "partner",
+      "title": "郡山市産学金官連携タイ販路開拓業務に係る公募型プロポーザルの実施について（令和8年度）",
+      "context": "2026年4月2日更新 郡山市産学金官連携タイ販路開拓業務に係る公募型プロポーザルの実施について（令和8年度）",
+      "url": "https://www.city.koriyama.lg.jp/site/keiyakuportal/139624.html",
+      "source_page": "https://www.city.koriyama.lg.jp/site/keiyakuportal/list87-226.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "実施",
+        "販路開拓"
+      ],
+      "deadline_date": "2026-04-22",
+      "deadline_raw": "令和8年4月22日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "30606f11d807b595",
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "org_category": "partner",
+      "title": "令和8年度四市連携地場企業販路拡大推進事業「ＢＥＹＯＮＤ ＳＤＧｓ エコプロ出展等業務委託」の提案競技の実施について",
+      "context": "2026年5月18日 令和8年度四市連携地場企業販路拡大推進事業「ＢＥＹＯＮＤ ＳＤＧｓ エコプロ出展等業務委託」の提案競技の実施について",
+      "url": "https://www.city.fukuoka.lg.jp/keizai/keieishien/business/2026_ecopro_teiankyogi.html",
+      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "matched_keywords": [
+        "委託",
+        "実施",
+        "業務委託",
+        "販路拡大"
+      ],
+      "deadline_date": "2026-05-25",
+      "deadline_raw": "令和８年5月25日",
+      "amount_raw": "３，３６１千円",
+      "amount_display": "3,361,000円",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "b636ae58f1dc9430",
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "org_category": "partner",
+      "title": "【3月6日申込締切】子ども食堂開催場所等マッチング支援業務委託に係る提案競技の実施について",
+      "context": "2026年2月27日 【3月6日申込締切】子ども食堂開催場所等マッチング支援業務委託に係る提案競技の実施について",
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/mimamori/child/syokudomatching_koubo1.html",
+      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "matched_keywords": [
+        "マッチング",
+        "委託",
+        "実施",
+        "業務委託",
+        "開催"
+      ],
+      "deadline_date": "2026-02-24",
+      "deadline_raw": "令和8年2月24日",
+      "amount_raw": "7,600,000円",
+      "amount_display": "7,600,000円",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "1553fcaf2ed4dc4e",
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "org_category": "partner",
+      "title": "【11月8日参加申込締切】令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託の実施について",
+      "context": "2024年10月29日 【11月8日参加申込締切】令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託の実施について",
+      "url": "https://www.city.fukuoka.lg.jp/fukushi/shakaisanka/gaikokujinkaigp_2024-2.html",
+      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "matched_keywords": [
+        "マッチング",
+        "委託",
+        "実施",
+        "業務委託"
+      ],
+      "deadline_date": "2024-11-01",
+      "deadline_raw": "令和6年11月1日",
+      "amount_raw": "5,100,000円",
+      "amount_display": "5,100,000円",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "85ab5f0064cd4980",
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "org_category": "partner",
+      "title": "子ども食堂開催場所等マッチング支援業務委託に係る提案競技に関する質問と回答",
+      "context": "2026年2月27日 子ども食堂開催場所等マッチング支援業務委託に係る提案競技に関する質問と回答",
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/mimamori/child/syokudoumatching_qa.html",
+      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "matched_keywords": [
+        "マッチング",
+        "委託",
+        "業務委託",
+        "開催"
+      ],
+      "deadline_date": "2026-03-06",
+      "deadline_raw": "3月6日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "09500640ae56e0af",
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "org_category": "partner",
+      "title": "「福岡市スタートアップ展示会出展・マッチング支援業務委託」提案競技に係る質問への回答",
+      "context": "2025年9月8日 「福岡市スタートアップ展示会出展・マッチング支援業務委託」提案競技に係る質問への回答",
+      "url": "https://www.city.fukuoka.lg.jp/keizai/r-support/business/syuttennsienn_teiannkyougi_kaitou.html",
+      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "matched_keywords": [
+        "マッチング",
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "5a292d443fd4f928",
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "org_category": "partner",
+      "title": "「令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託」に関する質問と回答",
+      "context": "2024年11月6日 「令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託」に関する質問と回答",
+      "url": "https://www.city.fukuoka.lg.jp/fukushi/shakaisanka/gaikokujinkaigo_2024_4.html",
+      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "matched_keywords": [
+        "マッチング",
+        "委託",
+        "業務委託"
+      ],
+      "deadline_date": "2026-11-08",
+      "deadline_raw": "11月８日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "98c386f91553c33c",
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "org_category": "partner",
+      "title": "「市内スタートアップへのビジネスマッチング提供イベント企画・運営等業務委託」提案競技に係る質問への回答",
+      "context": "2024年7月23日 「市内スタートアップへのビジネスマッチング提供イベント企画・運営等業務委託」提案競技に係る質問への回答",
+      "url": "https://www.city.fukuoka.lg.jp/keizai/r-support/business/startupbusinessmatching_teiannkyougi_kaitou.html",
+      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "matched_keywords": [
+        "マッチング",
+        "委託",
+        "業務委託",
+        "運営"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "47584bbe4fd8452e",
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "org_category": "partner",
+      "title": "令和8年度四市連携地場企業販路拡大推進事業「ＢＥＹＯＮＤ ＳＤＧｓ エコプロ出展等業務委託」の提案競技の選考結果について",
+      "context": "2026年6月11日 令和8年度四市連携地場企業販路拡大推進事業「ＢＥＹＯＮＤ ＳＤＧｓ エコプロ出展等業務委託」の提案競技の選考結果について",
+      "url": "https://www.city.fukuoka.lg.jp/keizai/keieishien/business/2026_ecopro_teiankyogi_kekka.html",
+      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "matched_keywords": [
+        "委託",
+        "業務委託",
+        "販路拡大"
+      ],
+      "deadline_date": "2026-05-25",
+      "deadline_raw": "令和８年5月25日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "e06674c51dc72363",
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "org_category": "partner",
+      "title": "「子ども食堂開催場所等マッチング支援業務委託」に係る提案競技の結果について",
+      "context": "2026年3月24日 「子ども食堂開催場所等マッチング支援業務委託」に係る提案競技の結果について",
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/mimamori/business/syokudoumatching_kekka2025.html",
+      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "matched_keywords": [
+        "マッチング",
+        "委託",
+        "業務委託",
+        "開催"
+      ],
+      "deadline_date": "2026-03-06",
+      "deadline_raw": "令和8年3月6日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "8369309a3b2ab717",
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "org_category": "partner",
+      "title": "「令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託」に係る提案競技の審査結果について",
+      "context": "2024年11月20日 「令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託」に係る提案競技の審査結果について",
+      "url": "https://www.city.fukuoka.lg.jp/fukushi/shakaisanka/gaikokukaigo_2024_2.html",
+      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "matched_keywords": [
+        "マッチング",
+        "委託",
+        "業務委託"
+      ],
+      "deadline_date": "2024-11-01",
+      "deadline_raw": "令和6年11月1日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "efe1cb4379ae6b91",
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "org_category": "partner",
+      "title": "「令和６年度 オンラインを活用した海外販路開拓支援事業業務委託」に係る提案競技の事業者選定結果について",
+      "context": "2024年7月24日 「令和６年度 オンラインを活用した海外販路開拓支援事業業務委託」に係る提案競技の事業者選定結果について",
+      "url": "https://www.city.fukuoka.lg.jp/keizai/kokusaikeizai/business/online_teiannkyougi_kekka_2.html",
+      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "matched_keywords": [
+        "委託",
+        "業務委託",
+        "販路開拓"
+      ],
+      "deadline_date": "2024-07-10",
+      "deadline_raw": "令和６年７月10日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
     },
     {
       "id": "93cb8d4cd0746cfa",
@@ -966,6 +1448,107 @@
       "amount_display": "25,577,000円"
     },
     {
+      "id": "42c72c40fcab2cdf",
+      "org_id": "tokushima_shokokai_kenren",
+      "org_name": "徳島県商工会連合会",
+      "org_category": "partner",
+      "title": "[国府町商工会] 国府町商工会が「第20回 LIFE×DESIGN SOZAI展」に出展します",
+      "context": "[国府町商工会] 国府町商工会が「第20回 LIFE×DESIGN SOZAI展」に出展します 国府町商工会は、2026年9月2日（水）～4日（金）に東京ビッグサイトで開催される**「第20回 LIFE&times;DESIGN SOZAI展」**に出展いたします。本展示では、徳島県を代表...",
+      "url": "https://r.goope.jp/tsci0300/info/6827211",
+      "source_page": "https://r.goope.jp/tsci/shokokai/info",
+      "matched_keywords": [
+        "展示",
+        "開催"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "b074ba9f0c11650a",
+      "org_id": "tokushima_cci",
+      "org_name": "徳島商工会議所",
+      "org_category": "partner",
+      "title": "【出展者募集】西日本最大級の食品BtoB商談会「FOOD STYLE JAPAN 2027＜関西＞」出展事業者募集のお知らせ",
+      "context": "2026/07/13 【出展者募集】西日本最大級の食品BtoB商談会「FOOD STYLE JAPAN 2027＜関西＞」出展事業者募集のお知らせ",
+      "url": "https://www.tokushimacci.or.jp/latest_information/2026071364152/",
+      "source_page": "https://www.tokushimacci.or.jp/latest_information/",
+      "matched_keywords": [
+        "事業者募集",
+        "商談"
+      ],
+      "deadline_date": "2026-08-07",
+      "deadline_raw": "8月7日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "0ceaf79f10deab7a",
+      "org_id": "tokushima_cci",
+      "org_name": "徳島商工会議所",
+      "org_category": "partner",
+      "title": "【令和７年度働き方改革推進支援助成金事業】「首都圏・関西 バイヤーとの商談会」と商談会出展者対象「フォローアップ研修」を実施報告",
+      "context": "2026/01/20 【令和７年度働き方改革推進支援助成金事業】「首都圏・関西 バイヤーとの商談会」と商談会出展者対象「フォローアップ研修」を実施報告",
+      "url": "https://www.tokushimacci.or.jp/latest_information/2026012061951/",
+      "source_page": "https://www.tokushimacci.or.jp/latest_information/",
+      "matched_keywords": [
+        "バイヤー",
+        "商談",
+        "実施"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "15423761735f3488",
+      "org_id": "tokushima_cci",
+      "org_name": "徳島商工会議所",
+      "org_category": "partner",
+      "title": "【12/1～1/31まで】KITTE大阪で開催の【MONOKATARI EXPO 2026】への出展を支援～徳島のモノづくり品を展示･体験･販売中～",
+      "context": "2025/12/01 【12/1～1/31まで】KITTE大阪で開催の【MONOKATARI EXPO 2026】への出展を支援～徳島のモノづくり品を展示･体験･販売中～",
+      "url": "https://www.tokushimacci.or.jp/latest_information/2025120161617/",
+      "source_page": "https://www.tokushimacci.or.jp/latest_information/",
+      "matched_keywords": [
+        "展示",
+        "開催"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "a179af7a77783a1c",
+      "org_id": "tokushima_cci",
+      "org_name": "徳島商工会議所",
+      "org_category": "partner",
+      "title": "【2月8日開催】販路開拓支援セミナー「中小企業・小規模事業者の取引を支援！『ザ・ビジネスモール＆越境ＥＣモール』Ｗモール活用セミナー」",
+      "context": "2021/12/13 【2月8日開催】販路開拓支援セミナー「中小企業・小規模事業者の取引を支援！『ザ・ビジネスモール＆越境ＥＣモール』Ｗモール活用セミナー」",
+      "url": "https://www.tokushimacci.or.jp/latest_information/2021121328740/",
+      "source_page": "https://www.tokushimacci.or.jp/latest_information/",
+      "matched_keywords": [
+        "販路開拓",
+        "開催"
+      ],
+      "deadline_date": "2022-02-08",
+      "deadline_raw": "令和４年２月８日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
       "id": "8ba1b705e769d3ec",
       "org_id": "saitama_j",
       "org_name": "埼玉県産業振興公社",
@@ -1028,6 +1611,114 @@
       "deadline_raw": "令和8年4月30日",
       "amount_raw": "3,000,000円",
       "amount_display": "3,000,000円"
+    },
+    {
+      "id": "1964f259bb2ef9b0",
+      "org_id": "asahikawa",
+      "org_name": "北海道旭川市",
+      "org_category": "partner",
+      "title": "生乳販路拡大推進業務随意契約参加確認公募の実施について",
+      "context": "生乳販路拡大推進業務随意契約参加確認公募の実施について",
+      "url": "https://www.city.asahikawa.hokkaido.jp/500/574/55000000/55100000/d084241.html",
+      "source_page": "https://www.city.asahikawa.hokkaido.jp/500/565/566/5681/index.html",
+      "matched_keywords": [
+        "公募",
+        "実施",
+        "販路拡大"
+      ],
+      "deadline_date": "2026-07-21",
+      "deadline_raw": "令和8年7月21日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "f6f9bbf2e8852ba2",
+      "org_id": "asahikawa",
+      "org_name": "北海道旭川市",
+      "org_category": "partner",
+      "title": "【公募期間終了】社会貢献型旭川産農産物販路拡大業務随意契約参加確認公募の実施について",
+      "context": "【公募期間終了】社会貢献型旭川産農産物販路拡大業務随意契約参加確認公募の実施について",
+      "url": "https://www.city.asahikawa.hokkaido.jp/500/574/55000000/55100000/d083118.html",
+      "source_page": "https://www.city.asahikawa.hokkaido.jp/500/565/566/5681/index.html",
+      "matched_keywords": [
+        "公募",
+        "実施",
+        "販路拡大"
+      ],
+      "deadline_date": "2026-02-05",
+      "deadline_raw": "令和8年2月5日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "e08173a58dc165c7",
+      "org_id": "asahikawa",
+      "org_name": "北海道旭川市",
+      "org_category": "partner",
+      "title": "【結果公表】社会貢献型旭川産農産物販路拡大業務に係る公募型プロポーザルの実施について",
+      "context": "【結果公表】社会貢献型旭川産農産物販路拡大業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.asahikawa.hokkaido.jp/10013/10015/d081259.html",
+      "source_page": "https://www.city.asahikawa.hokkaido.jp/500/565/566/5681/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "実施",
+        "販路拡大"
+      ],
+      "deadline_date": "2025-03-04",
+      "deadline_raw": "令和7年3月4日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "9b6a5999129e6129",
+      "org_id": "asahikawa",
+      "org_name": "北海道旭川市",
+      "org_category": "partner",
+      "title": "【結果公表】社会貢献型旭川産農産物販路拡大業務に係る公募型プロポーザルの実施について",
+      "context": "【結果公表】社会貢献型旭川産農産物販路拡大業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.asahikawa.hokkaido.jp/500/574/55000000/55100000/d080051.html",
+      "source_page": "https://www.city.asahikawa.hokkaido.jp/500/565/566/5681/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "実施",
+        "販路拡大"
+      ],
+      "deadline_date": "2024-07-23",
+      "deadline_raw": "令和6年7月23日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "7116faf0929fb3dc",
+      "org_id": "asahikawa",
+      "org_name": "北海道旭川市",
+      "org_category": "partner",
+      "title": "旭川市科学館展示製作設置業務公募型プロポーザルの実施について（終了）",
+      "context": "旭川市科学館展示製作設置業務公募型プロポーザルの実施について（終了）",
+      "url": "https://www.city.asahikawa.hokkaido.jp/500/565/566/5681/d076741.html",
+      "source_page": "https://www.city.asahikawa.hokkaido.jp/500/565/566/5681/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "実施",
+        "展示"
+      ],
+      "deadline_date": "2023-02-15",
+      "deadline_raw": "令和5年2月15日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
     },
     {
       "id": "9657c6f21befbc39",

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-17T08:26:53Z",
-  "org_count": 50,
+  "generated_at": "2026-07-17T09:10:10Z",
+  "org_count": 73,
   "error_count": 0,
   "new_items_today": 0,
-  "matched_today": 53,
+  "matched_today": 85,
   "entries": [
     {
       "org_id": "hokkaido",
@@ -12,7 +12,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 6,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "aomori",
@@ -21,7 +21,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "iwate",
@@ -30,7 +30,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "miyagi",
@@ -39,7 +39,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "akita",
@@ -48,7 +48,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 5,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "yamagata",
@@ -57,7 +57,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "fukushima",
@@ -66,7 +66,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "ibaraki",
@@ -75,7 +75,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "tochigi",
@@ -84,7 +84,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 9,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "gunma",
@@ -93,7 +93,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "saitama_pref",
@@ -102,7 +102,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "chiba",
@@ -111,7 +111,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "tokyo",
@@ -120,7 +120,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "kanagawa",
@@ -129,7 +129,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "niigata",
@@ -138,7 +138,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "toyama",
@@ -147,7 +147,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "yamanashi",
@@ -156,7 +156,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "nagano",
@@ -165,7 +165,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "gifu",
@@ -174,7 +174,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "shizuoka",
@@ -183,7 +183,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "aichi",
@@ -192,7 +192,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 7,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "shiga",
@@ -201,7 +201,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "kyoto",
@@ -210,7 +210,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "osaka",
@@ -219,7 +219,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "hyogo",
@@ -228,7 +228,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "nara",
@@ -237,7 +237,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "wakayama",
@@ -246,7 +246,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "tottori",
@@ -255,7 +255,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "shimane",
@@ -264,7 +264,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "okayama",
@@ -273,7 +273,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "hiroshima",
@@ -282,7 +282,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "yamaguchi",
@@ -291,7 +291,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "tokushima",
@@ -300,7 +300,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "kagawa",
@@ -309,7 +309,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "ehime",
@@ -318,7 +318,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 7,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "kochi",
@@ -327,7 +327,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "fukuoka",
@@ -336,7 +336,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "saga",
@@ -345,7 +345,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "nagasaki",
@@ -354,7 +354,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "kumamoto",
@@ -363,7 +363,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "oita",
@@ -372,7 +372,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "miyazaki",
@@ -381,7 +381,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "kagoshima",
@@ -390,7 +390,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 6,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "okinawa",
@@ -399,7 +399,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "saitama_j",
@@ -408,7 +408,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "jfc",
@@ -417,7 +417,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "kouiki_kansai",
@@ -426,7 +426,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 6,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "shiga_sci",
@@ -435,7 +435,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "zennoh",
@@ -444,7 +444,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
     },
     {
       "org_id": "tokyo_aff",
@@ -453,7 +453,214 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T08:26:53Z"
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "daigo",
+      "org_name": "茨城県大子町",
+      "url": "https://www.town.daigo.ibaraki.jp/page/dir003331.html",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "uto",
+      "org_name": "熊本県宇土市",
+      "url": "https://www.city.uto.lg.jp/category/list/1106.html",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "fukuoka_city",
+      "org_name": "福岡市",
+      "url": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
+      "status": "ok",
+      "error": null,
+      "matched_count": 11,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "koriyama",
+      "org_name": "福島県郡山市",
+      "url": "https://www.city.koriyama.lg.jp/site/keiyakuportal/list87-226.html",
+      "status": "ok",
+      "error": null,
+      "matched_count": 2,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "unzen",
+      "org_name": "長崎県雲仙市",
+      "url": "https://www.city.unzen.nagasaki.jp/dynamic/keiyaku/bidlist/default.aspx?c_id=38",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "asahikawa",
+      "org_name": "北海道旭川市",
+      "url": "https://www.city.asahikawa.hokkaido.jp/500/565/566/5681/index.html",
+      "status": "ok",
+      "error": null,
+      "matched_count": 5,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "nagasaki_food_cluster",
+      "org_name": "長崎県食料産業クラスター協議会",
+      "url": "https://www.nagasaki-chuokai.or.jp/foodcluster/kyougikaiinfolist",
+      "status": "ok",
+      "error": null,
+      "matched_count": 3,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "tokushima_cci",
+      "org_name": "徳島商工会議所",
+      "url": "https://www.tokushimacci.or.jp/latest_information/",
+      "status": "ok",
+      "error": null,
+      "matched_count": 4,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "miyazaki_cci_kenren",
+      "org_name": "宮崎県商工会議所連合会",
+      "url": "https://www.miyazaki-cci.or.jp/news/",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "tottori_shokokai_kenren",
+      "org_name": "鳥取県商工会連合会",
+      "url": "https://kenren.tori-skr.jp/info",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "saga_shokokai_kenren",
+      "org_name": "佐賀県商工会連合会",
+      "url": "https://r.goope.jp/srp-41/info",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "hiroshima_city",
+      "org_name": "広島市",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/index.html",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "matsuura",
+      "org_name": "長崎県松浦市",
+      "url": "https://www.city-matsuura.jp/top/sangyo_business/nyusatsu_keiyaku/index.html",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "uwajima",
+      "org_name": "愛媛県宇和島市",
+      "url": "https://www.city.uwajima.ehime.jp/life/6/34/",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "matsuyama",
+      "org_name": "愛媛県松山市",
+      "url": "https://www.city.matsuyama.ehime.jp/shisei/denshinyusatsu/jouhou/index.html",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "etajima",
+      "org_name": "広島県江田島市",
+      "url": "https://www.city.etajima.hiroshima.jp/cms/categories/show/14",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "nagano_city",
+      "org_name": "長野県長野市",
+      "url": "https://www.city.nagano.nagano.jp/menu/7/2/4/index.html",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "hiroshima_shokokai_kenren",
+      "org_name": "広島県商工会連合会",
+      "url": "https://www.active-hiroshima.jp/wholenews/",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "nagasaki_shokokai_kenren",
+      "org_name": "長崎県商工会連合会",
+      "url": "https://www.shokokai-nagasaki.or.jp/",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "yamagata_shokokai_kenren",
+      "org_name": "山形県商工会連合会",
+      "url": "https://r.goope.jp/srp-06/",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "miyagi_shokokai_kenren",
+      "org_name": "宮城県商工会連合会",
+      "url": "https://www.miyagi-fsci.or.jp/",
+      "status": "ok",
+      "error": null,
+      "matched_count": 0,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "tokushima_shokokai_kenren",
+      "org_name": "徳島県商工会連合会",
+      "url": "https://r.goope.jp/tsci/shokokai/info",
+      "status": "ok",
+      "error": null,
+      "matched_count": 1,
+      "checked_at": "2026-07-17T09:10:10Z"
+    },
+    {
+      "org_id": "tottori_cci",
+      "org_name": "鳥取商工会議所",
+      "url": "https://tottori-cci.or.jp/",
+      "status": "ok",
+      "error": null,
+      "matched_count": 6,
+      "checked_at": "2026-07-17T09:10:10Z"
     }
   ]
 }
