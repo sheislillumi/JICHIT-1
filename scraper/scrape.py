@@ -21,6 +21,7 @@ import time
 import hashlib
 import datetime
 import pathlib
+import unicodedata
 import urllib.parse
 
 import requests
@@ -106,10 +107,18 @@ DEADLINE_WINDOW = 30
 # それを開始日より優先する。
 DEADLINE_UNTIL_WINDOW = 20
 
-# 「11,000,000円」「1,100万円」「12,000千円」のような金額表記
-AMOUNT_RE = re.compile(r"\d[\d,，]*(?:\.\d+)?(?:万|千)?円")
+# 「11,000,000円」「1,100万円」「12,000千円」のような金額表記。
+# 全角カンマ「，」はNFKC正規化すれば半角に統一できるが、それはnormalize_amount()が
+# 表示用文字列を組み立てる段階の話であり、ここ(amount_rawとして拾う範囲を決める
+# 正規表現)で対応しておかないと全角カンマの手前で数値が途切れてしまう
+# (例:「２，０７８，０００円」の下2桁しか拾えない)ため、あえてそのまま残す。
+AMOUNT_RE = re.compile(r"\d[\d,，]*(?:\.\d+)?(?:億|万|千)?円")
 AMOUNT_KEYWORDS = ["上限", "予定価格", "委託料", "契約金額", "限度額"]
 AMOUNT_WINDOW = 30
+
+# amount_raw (全角混じりの生テキスト)を「1,234,567円」形式に正規化する際に使う。
+AMOUNT_UNIT_MULTIPLIERS = {"億": 100_000_000, "万": 10_000, "千": 1_000}
+NORMALIZE_AMOUNT_RE = re.compile(r"([\d,]+(?:\.\d+)?)\s*(億|万|千)?\s*円")
 
 
 def _date_from_match(m, current_year):
@@ -239,6 +248,28 @@ def extract_amount(text):
     return (best or amount_matches[0]).group(0)
 
 
+def normalize_amount(raw_text):
+    """amount_raw の表記ゆれ(全角数字、億/万/千単位)を「1,234,567円」形式に統一する。
+
+    「6,000千円（1事業者）×2事業者」のような複合表記は、掛け算などせず最初に
+    見つかった数値・単位をそのまま円換算するだけに留める(ベストエフォート)。
+    パースできない場合は None を返す。
+    """
+    if not raw_text:
+        return None
+    normalized = unicodedata.normalize("NFKC", raw_text)
+    m = NORMALIZE_AMOUNT_RE.search(normalized)
+    if not m:
+        return None
+    try:
+        number = float(m.group(1).replace(",", ""))
+    except ValueError:
+        return None
+    multiplier = AMOUNT_UNIT_MULTIPLIERS.get(m.group(2), 1)
+    value = round(number * multiplier)
+    return f"{value:,}円"
+
+
 def fetch_detail_deadline_amount(url, current_year):
     """当日マッチした案件の詳細ページを追加取得し、締切日・金額を抽出する。
 
@@ -364,6 +395,7 @@ def extract_candidates(html, base_url, current_year=None):
 
         deadline_date, deadline_raw = extract_deadline(context_text, current_year)
         amount_raw = extract_amount(context_text)
+        amount_display = normalize_amount(amount_raw)
 
         candidates.append(
             {
@@ -374,6 +406,7 @@ def extract_candidates(html, base_url, current_year=None):
                 "deadline_date": deadline_date,
                 "deadline_raw": deadline_raw,
                 "amount_raw": amount_raw,
+                "amount_display": amount_display,
             }
         )
     return candidates
@@ -687,6 +720,7 @@ def run():
                         c["deadline_raw"] = d_raw
                     if a_raw:
                         c["amount_raw"] = a_raw
+                        c["amount_display"] = normalize_amount(a_raw)
                     time.sleep(DETAIL_FETCH_SLEEP)
 
             for c in candidates:
@@ -698,6 +732,7 @@ def run():
                     existing_items[item_id]["deadline_date"] = c["deadline_date"]
                     existing_items[item_id]["deadline_raw"] = c["deadline_raw"]
                     existing_items[item_id]["amount_raw"] = c["amount_raw"]
+                    existing_items[item_id]["amount_display"] = c["amount_display"]
                 else:
                     existing_items[item_id] = {
                         "id": item_id,
@@ -712,6 +747,7 @@ def run():
                         "deadline_date": c["deadline_date"],
                         "deadline_raw": c["deadline_raw"],
                         "amount_raw": c["amount_raw"],
+                        "amount_display": c["amount_display"],
                         "first_seen": today,
                         "last_seen": today,
                     }

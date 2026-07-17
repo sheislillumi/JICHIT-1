@@ -238,7 +238,7 @@
       tr.appendChild(deadlineTd);
 
       const amountTd = document.createElement("td");
-      amountTd.textContent = item.amount_raw || "-";
+      amountTd.textContent = item.amount_display || item.amount_raw || "-";
       tr.appendChild(amountTd);
 
       const firstTd = document.createElement("td");

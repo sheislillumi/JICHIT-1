@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T07:32:55Z",
+  "generated_at": "2026-07-17T08:18:09Z",
   "items": [
     {
       "id": "d2bad0b47aa02608",
@@ -22,7 +22,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-06-18",
       "deadline_raw": "令和8年6月18日",
-      "amount_raw": "5,500,000円"
+      "amount_raw": "5,500,000円",
+      "amount_display": "5,500,000円"
     },
     {
       "id": "579488acf270e783",
@@ -43,7 +44,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-05-08",
       "deadline_raw": "5月8日",
-      "amount_raw": "2,500千円"
+      "amount_raw": "2,500千円",
+      "amount_display": "2,500,000円"
     },
     {
       "id": "95a0f434b47ebabd",
@@ -63,7 +65,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-04-27",
       "deadline_raw": "令和8年4月27日",
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "342815ce10af0734",
@@ -85,7 +88,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-04-23",
       "deadline_raw": "令和8年4月23日",
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "8580532c1b2514bb",
@@ -108,7 +112,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2025-10-09",
       "deadline_raw": "令和7年10月9日",
-      "amount_raw": "2,700,000円"
+      "amount_raw": "2,700,000円",
+      "amount_display": "2,700,000円"
     },
     {
       "id": "625c72dec6328237",
@@ -128,7 +133,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2025-05-08",
       "deadline_raw": "令和7年5月8日",
-      "amount_raw": "1,500,000円"
+      "amount_raw": "1,500,000円",
+      "amount_display": "1,500,000円"
     },
     {
       "id": "3a9802ad3f5f6f99",
@@ -148,7 +154,8 @@
       "deadline_raw": "令和8年8月7日",
       "amount_raw": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
+      "last_seen": "2026-07-17",
+      "amount_display": null
     },
     {
       "id": "8eef831c01c646c3",
@@ -168,7 +175,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-03-12",
       "deadline_raw": "令和8年3月12日",
-      "amount_raw": "9,000,000円"
+      "amount_raw": "9,000,000円",
+      "amount_display": "9,000,000円"
     },
     {
       "id": "32ba9b661fe470dc",
@@ -188,7 +196,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2025-02-17",
       "deadline_raw": "令和7年2月17日",
-      "amount_raw": "9,000,000円"
+      "amount_raw": "9,000,000円",
+      "amount_display": "9,000,000円"
     },
     {
       "id": "927990eff68d747d",
@@ -209,7 +218,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "79bf7750eef00938",
@@ -231,7 +241,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2024-05-21",
       "deadline_raw": "令和6年5月21日",
-      "amount_raw": "688,471,000円"
+      "amount_raw": "688,471,000円",
+      "amount_display": "688,471,000円"
     },
     {
       "id": "a12ea5010ab7871c",
@@ -252,7 +263,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "2a2eb391603631f0",
@@ -274,7 +286,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2023-06-20",
       "deadline_raw": "令和5年6月20日",
-      "amount_raw": "34,000,000円"
+      "amount_raw": "34,000,000円",
+      "amount_display": "34,000,000円"
     },
     {
       "id": "78a72c8362f3b33d",
@@ -295,7 +308,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-04-22",
       "deadline_raw": "令和8年4月22日",
-      "amount_raw": "12,000千円"
+      "amount_raw": "12,000千円",
+      "amount_display": "12,000,000円"
     },
     {
       "id": "f26438a73f2d81ca",
@@ -316,7 +330,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-07-16",
       "deadline_raw": "令和８年７月16日",
-      "amount_raw": "２，０７８，０００円"
+      "amount_raw": "２，０７８，０００円",
+      "amount_display": "2,078,000円"
     },
     {
       "id": "482ca1afe98d8bb9",
@@ -337,7 +352,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-06-29",
       "deadline_raw": "令和8年6月29日",
-      "amount_raw": "1，500，000円"
+      "amount_raw": "1，500，000円",
+      "amount_display": "1,500,000円"
     },
     {
       "id": "c98013d6c8fcfc7a",
@@ -357,7 +373,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "a8335c2898871ff4",
@@ -377,7 +394,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "4537e2928f1f9bb6",
@@ -398,7 +416,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-02-12",
       "deadline_raw": "令和８年２月１２日",
-      "amount_raw": "２８，９９０，０００円"
+      "amount_raw": "２８，９９０，０００円",
+      "amount_display": "28,990,000円"
     },
     {
       "id": "93cb8d4cd0746cfa",
@@ -417,7 +436,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-02-02",
       "deadline_raw": "2月2日",
-      "amount_raw": "1,000円"
+      "amount_raw": "1,000円",
+      "amount_display": "1,000円"
     },
     {
       "id": "c14a4574cf5450d6",
@@ -439,7 +459,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "d790766b438d631f",
@@ -459,7 +480,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": "752,000,000円"
+      "amount_raw": "752,000,000円",
+      "amount_display": "752,000,000円"
     },
     {
       "id": "51ea6da93b4d1853",
@@ -482,7 +504,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-06-08",
       "deadline_raw": "6月8日",
-      "amount_raw": "5,986,200円"
+      "amount_raw": "5,986,200円",
+      "amount_display": "5,986,200円"
     },
     {
       "id": "96a0c71fcf231cff",
@@ -502,7 +525,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "12ba2c2c4805e290",
@@ -525,7 +549,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "3cdc83527ffc2928",
@@ -548,7 +573,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "909a261d4e2af1ca",
@@ -570,7 +596,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": "5,079,580円"
+      "amount_raw": "5,079,580円",
+      "amount_display": "5,079,580円"
     },
     {
       "id": "7150d304bd64cdd5",
@@ -594,7 +621,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "c512e0eb82a654b8",
@@ -616,7 +644,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "87497e7b6ff2564d",
@@ -636,7 +665,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "70bd48195ff08416",
@@ -657,7 +687,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-05-12",
       "deadline_raw": "2026年5月12日",
-      "amount_raw": "12,999,600円"
+      "amount_raw": "12,999,600円",
+      "amount_display": "12,999,600円"
     },
     {
       "id": "5d93eb2fee660d03",
@@ -678,7 +709,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "3155d613ace5bd65",
@@ -698,7 +730,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-02-20",
       "deadline_raw": "令和8年2月20日",
-      "amount_raw": "5,421,864円"
+      "amount_raw": "5,421,864円",
+      "amount_display": "5,421,864円"
     },
     {
       "id": "1b67cab12de0b328",
@@ -718,7 +751,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "cc7cc94e80b7ca57",
@@ -738,7 +772,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-02-20",
       "deadline_raw": "令和8年2月20日",
-      "amount_raw": "5,421,864円"
+      "amount_raw": "5,421,864円",
+      "amount_display": "5,421,864円"
     },
     {
       "id": "83076888ba14a949",
@@ -759,7 +794,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2024-03-07",
       "deadline_raw": "2024年3月7日",
-      "amount_raw": "27,183,387円"
+      "amount_raw": "27,183,387円",
+      "amount_display": "27,183,387円"
     },
     {
       "id": "4576c595fccfaf7e",
@@ -780,7 +816,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "a37459ccff108874",
@@ -800,7 +837,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-06-18",
       "deadline_raw": "6月18日",
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "1b5d03f01476bf37",
@@ -821,7 +859,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-05-11",
       "deadline_raw": "5月11日",
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "e6f49b92059bf167",
@@ -840,7 +879,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-03-30",
       "deadline_raw": "令和8年3月30日",
-      "amount_raw": "9,188,000円"
+      "amount_raw": "9,188,000円",
+      "amount_display": "9,188,000円"
     },
     {
       "id": "2752c42380285009",
@@ -861,7 +901,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-03-16",
       "deadline_raw": "3月16日",
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "eb355c2f2c68bac8",
@@ -881,7 +922,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2025-08-22",
       "deadline_raw": "令和7年8月22日",
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "3f807159598f4352",
@@ -900,7 +942,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2025-03-24",
       "deadline_raw": "令和7年3月24日",
-      "amount_raw": "25,577千円"
+      "amount_raw": "25,577千円",
+      "amount_display": "25,577,000円"
     },
     {
       "id": "52519990492059e5",
@@ -919,7 +962,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2024-04-16",
       "deadline_raw": "令和6年4月16日",
-      "amount_raw": "25,577千円"
+      "amount_raw": "25,577千円",
+      "amount_display": "25,577,000円"
     },
     {
       "id": "8ba1b705e769d3ec",
@@ -938,7 +982,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "530b381078e74984",
@@ -960,7 +1005,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "76347181c24585c1",
@@ -980,7 +1026,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-04-30",
       "deadline_raw": "令和8年4月30日",
-      "amount_raw": "3,000,000円"
+      "amount_raw": "3,000,000円",
+      "amount_display": "3,000,000円"
     },
     {
       "id": "9657c6f21befbc39",
@@ -1000,7 +1047,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-08-04",
       "deadline_raw": "8月4日",
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "989293c0f7c0e614",
@@ -1020,7 +1068,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-07-29",
       "deadline_raw": "7月29日",
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "e76be5e89af2c3a2",
@@ -1041,7 +1090,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "653feb66ee750436",
@@ -1062,7 +1112,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "32cf7e47d32e75c5",
@@ -1082,7 +1133,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": "2026-07-29",
       "deadline_raw": "7月29日",
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "6f8db1541e0516fb",
@@ -1101,7 +1153,8 @@
       "last_seen": "2026-07-17",
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "d51fa68a64bbc17e",

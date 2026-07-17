@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T07:32:55Z",
+  "generated_at": "2026-07-17T08:18:09Z",
   "org_count": 50,
   "error_count": 0,
   "new_items_today": 0,
@@ -12,7 +12,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 6,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "aomori",
@@ -21,7 +21,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "iwate",
@@ -30,7 +30,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "miyagi",
@@ -39,7 +39,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "akita",
@@ -48,7 +48,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 5,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "yamagata",
@@ -57,7 +57,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "fukushima",
@@ -66,7 +66,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "ibaraki",
@@ -75,7 +75,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "tochigi",
@@ -84,7 +84,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 9,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "gunma",
@@ -93,7 +93,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "saitama_pref",
@@ -102,7 +102,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "chiba",
@@ -111,7 +111,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "tokyo",
@@ -120,7 +120,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "kanagawa",
@@ -129,7 +129,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "niigata",
@@ -138,7 +138,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "toyama",
@@ -147,7 +147,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "yamanashi",
@@ -156,7 +156,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "nagano",
@@ -165,7 +165,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "gifu",
@@ -174,7 +174,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "shizuoka",
@@ -183,7 +183,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "aichi",
@@ -192,7 +192,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 7,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "shiga",
@@ -201,7 +201,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "kyoto",
@@ -210,7 +210,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "osaka",
@@ -219,7 +219,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "hyogo",
@@ -228,7 +228,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "nara",
@@ -237,7 +237,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "wakayama",
@@ -246,7 +246,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "tottori",
@@ -255,7 +255,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "shimane",
@@ -264,7 +264,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "okayama",
@@ -273,7 +273,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "hiroshima",
@@ -282,7 +282,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "yamaguchi",
@@ -291,7 +291,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "tokushima",
@@ -300,7 +300,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "kagawa",
@@ -309,7 +309,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "ehime",
@@ -318,7 +318,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 7,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "kochi",
@@ -327,7 +327,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "fukuoka",
@@ -336,7 +336,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "saga",
@@ -345,7 +345,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "nagasaki",
@@ -354,7 +354,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "kumamoto",
@@ -363,7 +363,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "oita",
@@ -372,7 +372,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "miyazaki",
@@ -381,7 +381,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "kagoshima",
@@ -390,7 +390,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 6,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "okinawa",
@@ -399,7 +399,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "saitama_j",
@@ -408,7 +408,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "jfc",
@@ -417,7 +417,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "kouiki_kansai",
@@ -426,7 +426,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 6,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "shiga_sci",
@@ -435,7 +435,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "zennoh",
@@ -444,7 +444,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 0,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     },
     {
       "org_id": "tokyo_aff",
@@ -453,7 +453,7 @@
       "status": "ok",
       "error": null,
       "matched_count": 1,
-      "checked_at": "2026-07-17T07:32:55Z"
+      "checked_at": "2026-07-17T08:18:09Z"
     }
   ]
 }
