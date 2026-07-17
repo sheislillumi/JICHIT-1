@@ -40,9 +40,11 @@ TIMEOUT = 25
 RETRY = 2
 SLEEP_BETWEEN_REQUESTS = 1.5  # 相手サーバへの配慮
 
-# 「展示会・商談会」自体を指すキーワード
+# 「展示会・商談会」および「販路拡大・バイヤーマッチング」を指すキーワード
 KEYWORDS_TOPIC = [
     "展示", "商談", "見本市", "物産展", "産業展",
+    "販路拡大", "販路開拓", "流通拡大", "販売促進",
+    "マッチング", "バイヤー", "求評会",
 ]
 
 # 「運営・委託・公募」であることを示すキーワード
@@ -50,6 +52,13 @@ KEYWORDS_OPERATION = [
     "運営", "開催", "委託", "事務局", "実施", "企画運営", "企画競争",
     "プロポーザル", "公募", "業務委託", "請負", "受託者", "事業者募集",
 ]
+
+# 「マッチング」「バイヤー」は単体だと汎用的すぎて、ふるさと納税マッチングや
+# 外国人材/雇用マッチングなど無関係分野を拾ってしまう。他により具体的な
+# トピックキーワードが一致していない場合に限り、これらの語が併記されていたら
+# 誤検知とみなして除外する。
+GENERIC_TOPIC_KEYWORDS = {"マッチング", "バイヤー"}
+NEGATIVE_KEYWORDS = ["ふるさと納税", "人材", "雇用"]
 
 TEXT_TAGS = ["li", "tr", "p", "div", "dd", "article"]
 
@@ -80,9 +89,12 @@ def matches_keywords(text):
         return []
     hit_topic = [k for k in KEYWORDS_TOPIC if k in text]
     hit_op = [k for k in KEYWORDS_OPERATION if k in text]
-    if hit_topic and hit_op:
-        return hit_topic + hit_op
-    return []
+    if not (hit_topic and hit_op):
+        return []
+    specific_hit = [k for k in hit_topic if k not in GENERIC_TOPIC_KEYWORDS]
+    if not specific_hit and any(neg in text for neg in NEGATIVE_KEYWORDS):
+        return []
+    return hit_topic + hit_op
 
 
 def fetch(url):

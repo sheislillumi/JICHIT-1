@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T03:48:32Z",
+  "generated_at": "2026-07-17T04:34:40Z",
   "items": [
     {
       "id": "d2bad0b47aa02608",
@@ -69,7 +69,79 @@
         "公募",
         "商談",
         "委託",
+        "業務委託",
+        "販路開拓"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "8580532c1b2514bb",
+      "org_id": "kagoshima",
+      "org_name": "鹿児島県",
+      "org_category": "prefecture",
+      "title": "【質問回答掲載】令和7年度奄美群島バイヤー招聘事業業務委託に係る公募型企画提案（プロポーザル）の実施について",
+      "context": "【質問回答掲載】令和7年度奄美群島バイヤー招聘事業業務委託に係る公募型企画提案（プロポーザル）の実施について",
+      "url": "http://www.pref.kagoshima.jp/aq01/buyershouhei.html",
+      "source_page": "http://www.pref.kagoshima.jp/kensei/nyusatu/nyusatujoho/index.html",
+      "matched_keywords": [
+        "バイヤー",
+        "プロポーザル",
+        "公募",
+        "委託",
+        "実施",
         "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "625c72dec6328237",
+      "org_id": "kagoshima",
+      "org_name": "鹿児島県",
+      "org_category": "prefecture",
+      "title": "関西圏における大隅産農畜産物等販売促進に関する業務委託の企画提案を募集します！！",
+      "context": "関西圏における大隅産農畜産物等販売促進に関する業務委託の企画提案を募集します！！",
+      "url": "http://www.pref.kagoshima.jp/ao08/20250517.html",
+      "source_page": "http://www.pref.kagoshima.jp/kensei/nyusatu/nyusatujoho/index.html",
+      "matched_keywords": [
+        "委託",
+        "業務委託",
+        "販売促進"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "8eef831c01c646c3",
+      "org_id": "kouiki_kansai",
+      "org_name": "関西広域連合",
+      "org_category": "partner",
+      "title": "研究シーズと企業ニーズのマッチング業務に係る公募型プロポーザルの公告について",
+      "context": "研究シーズと企業ニーズのマッチング業務に係る公募型プロポーザルの公告について",
+      "url": "https://www.kouiki-kansai.jp/nyusatsu/10950.html",
+      "source_page": "https://www.kouiki-kansai.jp/nyusatsu/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "マッチング",
+        "公募"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "32ba9b661fe470dc",
+      "org_id": "kouiki_kansai",
+      "org_name": "関西広域連合",
+      "org_category": "partner",
+      "title": "研究シーズと企業ニーズのマッチング業務に係る公募型プロポーザルの公告について",
+      "context": "研究シーズと企業ニーズのマッチング業務に係る公募型プロポーザルの公告について",
+      "url": "https://www.kouiki-kansai.jp/nyusatsu/10146.html",
+      "source_page": "https://www.kouiki-kansai.jp/nyusatsu/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "マッチング",
+        "公募"
       ],
       "first_seen": "2026-07-17",
       "last_seen": "2026-07-17"
@@ -149,6 +221,60 @@
       "last_seen": "2026-07-17"
     },
     {
+      "id": "78a72c8362f3b33d",
+      "org_id": "gunma",
+      "org_name": "群馬県",
+      "org_category": "prefecture",
+      "title": "【公募】令和8年度産直ＥＣサイトを活用した生産者の販路拡大支援業務に係る公募型プロポーザルの実施について",
+      "context": "2026年4月9日 【公募】令和8年度産直ＥＣサイトを活用した生産者の販路拡大支援業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.pref.gunma.jp/site/nyuusatsu/752337.html",
+      "source_page": "https://www.pref.gunma.jp/site/nyuusatsu/list135-773.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "実施",
+        "販路拡大"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "f26438a73f2d81ca",
+      "org_id": "akita",
+      "org_name": "秋田県",
+      "org_category": "prefecture",
+      "title": "あきたの農山漁村・企業連携マッチング業務委託に係る企画提案競技の実施について",
+      "context": "あきたの農山漁村・企業連携マッチング業務委託に係る企画提案競技の実施について [ 2026年07月03日 ]",
+      "url": "https://www.pref.akita.lg.jp/pages/archive/97772",
+      "source_page": "https://www.pref.akita.lg.jp/pages/genre/12121",
+      "matched_keywords": [
+        "マッチング",
+        "委託",
+        "実施",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "482ca1afe98d8bb9",
+      "org_id": "akita",
+      "org_name": "秋田県",
+      "org_category": "prefecture",
+      "title": "デジタル販路開拓支援事業業務委託に係る企画提案競技の実施について",
+      "context": "デジタル販路開拓支援事業業務委託に係る企画提案競技の実施について [ 2026年06月12日 ]",
+      "url": "https://www.pref.akita.lg.jp/pages/archive/91042",
+      "source_page": "https://www.pref.akita.lg.jp/pages/genre/12121",
+      "matched_keywords": [
+        "委託",
+        "実施",
+        "業務委託",
+        "販路開拓"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
       "id": "c98013d6c8fcfc7a",
       "org_id": "akita",
       "org_name": "秋田県",
@@ -201,6 +327,41 @@
       "last_seen": "2026-07-17"
     },
     {
+      "id": "93cb8d4cd0746cfa",
+      "org_id": "shiga_sci",
+      "org_name": "滋賀県商工会連合会",
+      "org_category": "partner",
+      "title": "第1回ビジネスマッチング事業『創業間もないセミナー＆交流会』の開催について",
+      "context": "2025.12.24 第1回ビジネスマッチング事業『創業間もないセミナー＆交流会』の開催について",
+      "url": "https://www.shigasci.net/topics/2580.html",
+      "source_page": "https://www.shigasci.net/topics/",
+      "matched_keywords": [
+        "マッチング",
+        "開催"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "c14a4574cf5450d6",
+      "org_id": "tochigi",
+      "org_name": "栃木県",
+      "org_category": "prefecture",
+      "title": "令和8(2026)年度栃木県動静脈連携ビジネスマッチング推進業務委託公募型プロポーザルの審査結果について",
+      "context": "令和8(2026)年度栃木県動静脈連携ビジネスマッチング推進業務委託公募型プロポーザルの審査結果について",
+      "url": "https://www.pref.tochigi.lg.jp/d05/eco/haikibutsu/jyunkan/circuler_business_puropo.html",
+      "source_page": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "マッチング",
+        "公募",
+        "委託",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
       "id": "d790766b438d631f",
       "org_id": "tochigi",
       "org_name": "栃木県",
@@ -212,6 +373,26 @@
       "matched_keywords": [
         "委託",
         "展示",
+        "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "51ea6da93b4d1853",
+      "org_id": "tochigi",
+      "org_name": "栃木県",
+      "org_category": "prefecture",
+      "title": "令和8（2026）年度栃木県動静脈連携ビジネスマッチング推進業務委託の公募型プロポーザルの実施について",
+      "context": "令和8（2026）年度栃木県動静脈連携ビジネスマッチング推進業務委託の公募型プロポーザルの実施について",
+      "url": "https://www.pref.tochigi.lg.jp/d05/eco/haikibutsu/jyunkan/businessmatch.html",
+      "source_page": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "マッチング",
+        "公募",
+        "委託",
+        "実施",
         "業務委託"
       ],
       "first_seen": "2026-07-17",
@@ -304,6 +485,7 @@
       "source_page": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",
       "matched_keywords": [
         "プロポーザル",
+        "マッチング",
         "公募",
         "商談",
         "委託",
@@ -328,6 +510,23 @@
         "委託",
         "展示",
         "業務委託"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "87497e7b6ff2564d",
+      "org_id": "tokyo_aff",
+      "org_name": "東京都農林水産振興財団",
+      "org_category": "partner",
+      "title": "令和8年度新東京都ＧＡＰ認証農産物に係る流通拡大支援業務委託",
+      "context": "2026年6月12日 令和8年度新東京都ＧＡＰ認証農産物に係る流通拡大支援業務委託",
+      "url": "https://www.tokyo-aff.or.jp/site/news/99658.html",
+      "source_page": "https://www.tokyo-aff.or.jp/site/news/list34-521.html",
+      "matched_keywords": [
+        "委託",
+        "業務委託",
+        "流通拡大"
       ],
       "first_seen": "2026-07-17",
       "last_seen": "2026-07-17"
@@ -491,6 +690,40 @@
       "last_seen": "2026-07-17"
     },
     {
+      "id": "e6f49b92059bf167",
+      "org_id": "ehime",
+      "org_name": "愛媛県",
+      "org_category": "prefecture",
+      "title": "令和８年度シンガポール向け加工食品販路開拓支援事業受託者の募集について",
+      "context": "2026年3月23日 令和８年度シンガポール向け加工食品販路開拓支援事業受託者の募集について",
+      "url": "https://www.pref.ehime.jp/site/nyusatsu/140888.html",
+      "source_page": "https://www.pref.ehime.jp/site/nyusatsu/list92-339.html",
+      "matched_keywords": [
+        "受託者",
+        "販路開拓"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "2752c42380285009",
+      "org_id": "ehime",
+      "org_name": "愛媛県",
+      "org_category": "prefecture",
+      "title": "令和8年度成果連動型ビジネスマッチング支援事業の委託に係る企画提案公募の実施について",
+      "context": "2026年2月13日 令和8年度成果連動型ビジネスマッチング支援事業の委託に係る企画提案公募の実施について",
+      "url": "https://www.pref.ehime.jp/site/nyusatsu/109683.html",
+      "source_page": "https://www.pref.ehime.jp/site/nyusatsu/list92-339.html",
+      "matched_keywords": [
+        "マッチング",
+        "公募",
+        "委託",
+        "実施"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
       "id": "eb355c2f2c68bac8",
       "org_id": "ehime",
       "org_name": "愛媛県",
@@ -540,6 +773,41 @@
       "last_seen": "2026-07-17"
     },
     {
+      "id": "8ba1b705e769d3ec",
+      "org_id": "saitama_j",
+      "org_name": "埼玉県産業振興公社",
+      "org_category": "partner",
+      "title": "「彩の国ビジネスアリーナ」令和８年度開催の見送りについて",
+      "context": "重要 「彩の国ビジネスアリーナ」令和８年度開催の見送りについて ［販路開拓支援，報道発表］",
+      "url": "https://www.saitama-j.or.jp/pages/376?detail=1&b_id=3767&r_id=542#block3767",
+      "source_page": "https://www.saitama-j.or.jp/pages/376/",
+      "matched_keywords": [
+        "販路開拓",
+        "開催"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "530b381078e74984",
+      "org_id": "wakayama",
+      "org_name": "和歌山県",
+      "org_category": "prefecture",
+      "title": "県民リフレッシュプラン販売促進事務局運営等業務にかかるプロポーザルの実施について",
+      "context": "令和2年6月3日 県民リフレッシュプラン販売促進事務局運営等業務にかかるプロポーザルの実施について 観光振興課",
+      "url": "https://www.pref.wakayama.lg.jp/prefg/062400/d00204436.html",
+      "source_page": "https://www.pref.wakayama.lg.jp/whatsnew/nyusatsu.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "事務局",
+        "実施",
+        "販売促進",
+        "運営"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
       "id": "76347181c24585c1",
       "org_id": "chiba",
       "org_name": "千葉県",
@@ -569,6 +837,92 @@
         "委託",
         "実施",
         "展示"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "989293c0f7c0e614",
+      "org_id": "hokkaido",
+      "org_name": "北海道",
+      "org_category": "prefecture",
+      "title": "総合評価一般競争入札の実施（令和８年度（2026年度）HOKKAIDO WOOD海外販路拡大事業委託業務）",
+      "context": "2026年7月14日 総合評価一般競争入札の実施（令和８年度（2026年度）HOKKAIDO WOOD海外販路拡大事業委託業務）",
+      "url": "https://www.pref.hokkaido.lg.jp/sm/kmc/264632.html",
+      "source_page": "https://www.pref.hokkaido.lg.jp/news/nyusatsu/",
+      "matched_keywords": [
+        "委託",
+        "実施",
+        "販路拡大"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "e76be5e89af2c3a2",
+      "org_id": "hokkaido",
+      "org_name": "北海道",
+      "org_category": "prefecture",
+      "title": "令和８年度道産農畜産物海外販路拡大産地づくり支援事業（牛肉・牛乳・乳製品・日本酒）委託業務(公募型プロポーザル)",
+      "context": "2026年7月13日 令和８年度道産農畜産物海外販路拡大産地づくり支援事業（牛肉・牛乳・乳製品・日本酒）委託業務(公募型プロポーザル)",
+      "url": "https://www.pref.hokkaido.lg.jp/sm/kmc/264521.html",
+      "source_page": "https://www.pref.hokkaido.lg.jp/news/nyusatsu/",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "委託",
+        "販路拡大"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "653feb66ee750436",
+      "org_id": "hokkaido",
+      "org_name": "北海道",
+      "org_category": "prefecture",
+      "title": "令和８年度道産農畜産物海外販路拡大産地づくり支援事業（コメ・青果物・ 全体会議）委託業務(公募型プロポーザル)",
+      "context": "2026年7月13日 令和８年度道産農畜産物海外販路拡大産地づくり支援事業（コメ・青果物・ 全体会議）委託業務(公募型プロポーザル)",
+      "url": "https://www.pref.hokkaido.lg.jp/sm/kmc/264519.html",
+      "source_page": "https://www.pref.hokkaido.lg.jp/news/nyusatsu/",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "委託",
+        "販路拡大"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "32cf7e47d32e75c5",
+      "org_id": "hokkaido",
+      "org_name": "北海道",
+      "org_category": "prefecture",
+      "title": "総合評価一般競争入札の実施（令和8年度中国における道産品販路拡大事業委託業務）",
+      "context": "2026年7月9日 総合評価一般競争入札の実施（令和8年度中国における道産品販路拡大事業委託業務）",
+      "url": "https://www.pref.hokkaido.lg.jp/sm/kmc/264307.html",
+      "source_page": "https://www.pref.hokkaido.lg.jp/news/nyusatsu/",
+      "matched_keywords": [
+        "委託",
+        "実施",
+        "販路拡大"
+      ],
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
+    {
+      "id": "6f8db1541e0516fb",
+      "org_id": "hokkaido",
+      "org_name": "北海道",
+      "org_category": "prefecture",
+      "title": "「令和８年度（2026年度）HOKKAIDO WOOD販路拡大事業委託業務」(R8.6.11開札_総合評価一般競争入札)",
+      "context": "2026年6月24日 「令和８年度（2026年度）HOKKAIDO WOOD販路拡大事業委託業務」(R8.6.11開札_総合評価一般競争入札)",
+      "url": "https://www.pref.hokkaido.lg.jp/sm/kmc/262709.html",
+      "source_page": "https://www.pref.hokkaido.lg.jp/news/nyusatsu/",
+      "matched_keywords": [
+        "委託",
+        "販路拡大"
       ],
       "first_seen": "2026-07-17",
       "last_seen": "2026-07-17"
