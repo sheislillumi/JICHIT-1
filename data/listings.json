@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T09:23:24Z",
+  "generated_at": "2026-07-17T09:35:28Z",
   "items": [
     {
       "id": "d2bad0b47aa02608",
@@ -685,73 +685,6 @@
       "last_seen": "2026-07-17"
     },
     {
-      "id": "b636ae58f1dc9430",
-      "org_id": "fukuoka_city",
-      "org_name": "福岡市",
-      "org_category": "partner",
-      "title": "【3月6日申込締切】子ども食堂開催場所等マッチング支援業務委託に係る提案競技の実施について",
-      "context": "2026年2月27日 【3月6日申込締切】子ども食堂開催場所等マッチング支援業務委託に係る提案競技の実施について",
-      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/mimamori/child/syokudomatching_koubo1.html",
-      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
-      "matched_keywords": [
-        "マッチング",
-        "委託",
-        "実施",
-        "業務委託",
-        "開催"
-      ],
-      "deadline_date": "2026-02-24",
-      "deadline_raw": "令和8年2月24日",
-      "amount_raw": "7,600,000円",
-      "amount_display": "7,600,000円",
-      "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
-    },
-    {
-      "id": "1553fcaf2ed4dc4e",
-      "org_id": "fukuoka_city",
-      "org_name": "福岡市",
-      "org_category": "partner",
-      "title": "【11月8日参加申込締切】令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託の実施について",
-      "context": "2024年10月29日 【11月8日参加申込締切】令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託の実施について",
-      "url": "https://www.city.fukuoka.lg.jp/fukushi/shakaisanka/gaikokujinkaigp_2024-2.html",
-      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
-      "matched_keywords": [
-        "マッチング",
-        "委託",
-        "実施",
-        "業務委託"
-      ],
-      "deadline_date": "2024-11-01",
-      "deadline_raw": "令和6年11月1日",
-      "amount_raw": "5,100,000円",
-      "amount_display": "5,100,000円",
-      "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
-    },
-    {
-      "id": "85ab5f0064cd4980",
-      "org_id": "fukuoka_city",
-      "org_name": "福岡市",
-      "org_category": "partner",
-      "title": "子ども食堂開催場所等マッチング支援業務委託に係る提案競技に関する質問と回答",
-      "context": "2026年2月27日 子ども食堂開催場所等マッチング支援業務委託に係る提案競技に関する質問と回答",
-      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/mimamori/child/syokudoumatching_qa.html",
-      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
-      "matched_keywords": [
-        "マッチング",
-        "委託",
-        "業務委託",
-        "開催"
-      ],
-      "deadline_date": "2026-03-06",
-      "deadline_raw": "3月6日",
-      "amount_raw": null,
-      "amount_display": null,
-      "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
-    },
-    {
       "id": "09500640ae56e0af",
       "org_id": "fukuoka_city",
       "org_name": "福岡市",
@@ -768,27 +701,6 @@
       ],
       "deadline_date": null,
       "deadline_raw": null,
-      "amount_raw": null,
-      "amount_display": null,
-      "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
-    },
-    {
-      "id": "5a292d443fd4f928",
-      "org_id": "fukuoka_city",
-      "org_name": "福岡市",
-      "org_category": "partner",
-      "title": "「令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託」に関する質問と回答",
-      "context": "2024年11月6日 「令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託」に関する質問と回答",
-      "url": "https://www.city.fukuoka.lg.jp/fukushi/shakaisanka/gaikokujinkaigo_2024_4.html",
-      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
-      "matched_keywords": [
-        "マッチング",
-        "委託",
-        "業務委託"
-      ],
-      "deadline_date": "2026-11-08",
-      "deadline_raw": "11月８日",
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
@@ -832,49 +744,6 @@
       ],
       "deadline_date": "2026-05-25",
       "deadline_raw": "令和８年5月25日",
-      "amount_raw": null,
-      "amount_display": null,
-      "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
-    },
-    {
-      "id": "e06674c51dc72363",
-      "org_id": "fukuoka_city",
-      "org_name": "福岡市",
-      "org_category": "partner",
-      "title": "「子ども食堂開催場所等マッチング支援業務委託」に係る提案競技の結果について",
-      "context": "2026年3月24日 「子ども食堂開催場所等マッチング支援業務委託」に係る提案競技の結果について",
-      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/mimamori/business/syokudoumatching_kekka2025.html",
-      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
-      "matched_keywords": [
-        "マッチング",
-        "委託",
-        "業務委託",
-        "開催"
-      ],
-      "deadline_date": "2026-03-06",
-      "deadline_raw": "令和8年3月6日",
-      "amount_raw": null,
-      "amount_display": null,
-      "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17"
-    },
-    {
-      "id": "8369309a3b2ab717",
-      "org_id": "fukuoka_city",
-      "org_name": "福岡市",
-      "org_category": "partner",
-      "title": "「令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託」に係る提案競技の審査結果について",
-      "context": "2024年11月20日 「令和６年度　特定技能外国人と介護事業所等とのマッチング事業業務委託」に係る提案競技の審査結果について",
-      "url": "https://www.city.fukuoka.lg.jp/fukushi/shakaisanka/gaikokukaigo_2024_2.html",
-      "source_page": "https://www.city.fukuoka.lg.jp/business/keiyaku-kobo/teiankyogi.html",
-      "matched_keywords": [
-        "マッチング",
-        "委託",
-        "業務委託"
-      ],
-      "deadline_date": "2024-11-01",
-      "deadline_raw": "令和6年11月1日",
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
