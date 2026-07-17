@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>展示会・商談会 公募案件ダッシュボード</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div>
+        <h1>展示会・商談会 公募案件ダッシュボード</h1>
+        <p class="subtitle">都道府県・関連団体の公募/入札情報を毎日自動収集</p>
+      </div>
+      <div class="header-meta">
+        <div id="lastUpdated" class="meta-badge">最終更新: 取得中...</div>
+        <button id="statusToggleBtn" class="btn btn-ghost">収集ステータス</button>
+        <button id="addOrgBtn" class="btn btn-primary">＋ 団体を追加</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="statusPanel" class="panel hidden">
+      <div class="panel-header">
+        <h2>収集ステータス</h2>
+        <button class="btn btn-ghost" id="closeStatusBtn">閉じる</button>
+      </div>
+      <div id="statusSummary" class="status-summary"></div>
+      <div class="table-wrap">
+        <table class="status-table">
+          <thead>
+            <tr><th>団体</th><th>状態</th><th>マッチ件数</th><th>エラー内容</th><th>確認日時(UTC)</th></tr>
+          </thead>
+          <tbody id="statusTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="filter-bar">
+      <input id="searchInput" type="text" placeholder="キーワードで絞り込み（例: 商談会 運営）" />
+
+      <select id="categoryFilter">
+        <option value="all">すべての団体区分</option>
+        <option value="prefecture">都道府県</option>
+        <option value="partner">連携団体</option>
+      </select>
+
+      <select id="periodFilter">
+        <option value="all">全期間</option>
+        <option value="7">直近7日以内に確認</option>
+        <option value="30" selected>直近30日以内に確認</option>
+        <option value="90">直近90日以内に確認</option>
+      </select>
+
+      <select id="sortSelect">
+        <option value="new" selected>新着順（初出日）</option>
+        <option value="recent">最終確認日順</option>
+        <option value="org">団体名順</option>
+      </select>
+
+      <select id="orgFilter">
+        <option value="all">すべての団体</option>
+      </select>
+    </section>
+
+    <p id="resultCount" class="result-count"></p>
+
+    <section class="table-wrap">
+      <table class="listing-table">
+        <thead>
+          <tr>
+            <th>団体</th>
+            <th>案件</th>
+            <th>マッチキーワード</th>
+            <th>初出日</th>
+            <th>最終確認日</th>
+            <th>元ページ</th>
+          </tr>
+        </thead>
+        <tbody id="listingTableBody"></tbody>
+      </table>
+      <p id="emptyState" class="empty-state hidden">条件に一致する案件が見つかりません。フィルタを調整してください。</p>
+    </section>
+  </main>
+
+  <!-- 団体追加 / GitHub設定 モーダル -->
+  <div id="addOrgModal" class="modal-overlay hidden">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>団体を追加</h2>
+        <button id="closeModalBtn" class="btn btn-ghost">×</button>
+      </div>
+
+      <div class="modal-body">
+        <details id="ghSettingsDetails" class="gh-settings">
+          <summary>GitHub連携設定（初回のみ）</summary>
+          <p class="hint">
+            この機能は config/organizations.json をこのリポジトリに直接コミットします。
+            <strong>このリポジトリへの書き込み権限を持つ Fine-grained Personal Access Token
+            （Contents: Read and write、対象リポジトリを本リポジトリのみに限定）</strong>を発行し、下記に貼り付けてください。
+            トークンはこのブラウザの localStorage にのみ保存され、外部サーバには送信されません。
+          </p>
+          <label>リポジトリ Owner（組織/ユーザー名）
+            <input id="ghOwner" type="text" placeholder="例: your-org" />
+          </label>
+          <label>リポジトリ名
+            <input id="ghRepo" type="text" placeholder="例: jichitai-kobo-dashboard" />
+          </label>
+          <label>ブランチ名
+            <input id="ghBranch" type="text" placeholder="main" value="main" />
+          </label>
+          <label>Personal Access Token
+            <input id="ghToken" type="password" placeholder="github_pat_..." />
+          </label>
+          <button id="saveGhSettingsBtn" class="btn btn-secondary">設定を保存</button>
+          <span id="ghSettingsStatus" class="settings-status"></span>
+        </details>
+
+        <form id="addOrgForm">
+          <label>団体名 <span class="required">*</span>
+            <input id="orgName" type="text" required placeholder="例: ○○市" />
+          </label>
+          <label>区分 <span class="required">*</span>
+            <select id="orgCategory">
+              <option value="prefecture">都道府県</option>
+              <option value="partner" selected>連携団体（市区町村・公社・団体など）</option>
+            </select>
+          </label>
+          <label>入札・公募情報の一覧ページURL <span class="required">*</span>
+            <input id="orgUrl" type="url" required placeholder="https://..." />
+          </label>
+          <label>備考
+            <textarea id="orgNote" rows="3" placeholder="ページの特徴、更新頻度など"></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">GitHubにコミットして追加</button>
+          </div>
+          <p id="addOrgResult" class="form-result"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="app-footer">
+    <p>
+      本ダッシュボードは各団体の公開情報を機械的に収集したものです。誤検知・検知漏れが発生する場合があります。
+      応募にあたっては必ず元ページで最新の公告内容をご確認ください。
+      構成の詳細は <a href="https://github.com/" id="repoLink" target="_blank" rel="noopener">リポジトリ</a> を参照。
+    </p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

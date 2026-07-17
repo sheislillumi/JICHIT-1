@@ -1,0 +1,49 @@
+name: Daily Scrape
+
+on:
+  schedule:
+    # 毎日 06:00 JST (= 21:00 UTC 前日) に実行
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - "config/organizations.json"
+      - "scraper/**"
+      - ".github/workflows/daily-scrape.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run scraper
+        run: python scraper/scrape.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "kobo-dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/listings.json data/scrape_log.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: daily scrape update ($(date -u +'%Y-%m-%d'))"
+            git push
+          fi
