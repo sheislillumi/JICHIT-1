@@ -1,13 +1,55 @@
 {
-  "generated_at": "2026-07-21T03:07:49Z",
+  "generated_at": "2026-07-21T22:02:39Z",
   "items": [
+    {
+      "id": "3a94403084402cfe",
+      "org_id": "saitama_pref",
+      "org_name": "埼玉県",
+      "org_category": "prefecture",
+      "title": "令和８年度スマート農業技術実演・展示会会場設営・交通警備業務委託 2026072101 一般競争入札（標準型） 参加申請書受付中 埼玉県農林部農業支援課長が指定",
+      "context": "令和８年度スマート農業技術実演・展示会会場設営・交通警備業務委託 2026072101 一般競争入札（標準型） 参加申請書受付中 埼玉県農林部農業支援課長が指定する場所 2026/07/21 2026/08/05 埼玉県　農林部　農業支援課",
+      "url": "JavaScript:direct('00647425','0000')",
+      "source_page": "https://ebidjk2.ebid2.pref.saitama.lg.jp/koukai/do/KF000ShowAction",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21"
+    },
+    {
+      "id": "69f63f3316f59e40",
+      "org_id": "asahikawa",
+      "org_name": "北海道旭川市",
+      "org_category": "partner",
+      "title": "【公募期間終了】生乳販路拡大推進業務随意契約参加確認公募の実施について",
+      "context": "【公募期間終了】生乳販路拡大推進業務随意契約参加確認公募の実施について",
+      "url": "https://www.city.asahikawa.hokkaido.jp/500/574/55000000/55100000/d084241.html",
+      "source_page": "https://www.city.asahikawa.hokkaido.jp/500/565/566/5681/index.html",
+      "matched_keywords": [
+        "公募",
+        "実施",
+        "販路拡大"
+      ],
+      "deadline_date": "2026-07-21",
+      "deadline_raw": "令和8年7月21日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21"
+    },
     {
       "id": "e523d898d8b0b4b1",
       "org_id": "saitama_pref",
       "org_name": "埼玉県",
       "org_category": "prefecture",
       "title": "令和８年度スマート農業技術実演・展示会会場設営・交通警備業務委託",
-      "context": "令和８年度スマート農業技術実演・展示会会場設営・交通警備業務委託 2026072101 一般競争入札（標準型） 参加申請書受付前 埼玉県農林部農業支援課長が指定する場所 2026/07/21 2026/08/05 埼玉県　農林部　農業支援課",
+      "context": "令和８年度スマート農業技術実演・展示会会場設営・交通警備業務委託 2026072101 一般競争入札（標準型） 参加申請書受付中 埼玉県農林部農業支援課長が指定する場所 2026/07/21 2026/08/05 埼玉県　農林部　農業支援課",
       "url": "https://ebidjk2.ebid2.pref.saitama.lg.jp/koukai/do/KB302ShowAction?control_no=193457",
       "source_page": "https://ebidjk2.ebid2.pref.saitama.lg.jp/koukai/do/KF000ShowAction",
       "matched_keywords": [
