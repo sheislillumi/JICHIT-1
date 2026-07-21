@@ -631,6 +631,260 @@ def kanagawa_buppin():
     return str(soup), detail_url
 
 
+def ishikawa_ppi():
+    """石川県 入札情報システム 入札予定(ep-bis.supercals.jp/ebidPPIPublish)。
+
+    ログイン不要で「受注者」側の入札予定検索フォームに到達できる
+    (福井県と同じPPI Publish系システム)。無条件検索だと結果上限
+    (700件)を超えるため、入札予定日を当日から1か月分に絞って検索する。
+    調達区分(工事/コンサル)ごとに個別検索が必要で、案件名がリンクではなく
+    素の<td>テキストのため、kanagawa_buppin同様に<a>タグで包んで返す。
+    """
+    base = "https://www.ep-bis.supercals.jp"
+    kikan_no = "1700000"
+    s = requests.Session()
+    s.headers.update({"User-Agent": USER_AGENT})
+
+    s.get(f"{base}/ebidPPIPublish/EjPPIj", params={"KikanNO": kikan_no}, timeout=TIMEOUT)
+    s.post(
+        f"{base}/ebidPPIPublish/EjPPIj",
+        data={"ejParameterID": "StartPage", "KikanNO": kikan_no},
+        timeout=TIMEOUT,
+    )
+    s.post(
+        f"{base}/ebidPPIPublish/EjPPIj",
+        data={
+            "ejParameterID": "EjPSJ01",
+            "ejNextParameterID": "",
+            "ejProcessName": "start",
+            "ejCategoryName": "",
+        },
+        timeout=TIMEOUT,
+    )
+    cond_url = f"{base}/ebidPPIPublish/EjPPIj"
+    s.get(
+        cond_url,
+        params={
+            "ejParameterID": "EjPSJ01",
+            "ejShousaiDispFlag": "null",
+            "ejProcessName": "getCondPage",
+        },
+        timeout=TIMEOUT,
+    )
+
+    today = datetime.date.today()
+    date_from = today.strftime("%Y/%m/%d")
+    date_to = (today + datetime.timedelta(days=30)).strftime("%Y/%m/%d")
+
+    html_parts = []
+    for choutatsu_cd in ("00", "01"):
+        r = s.post(
+            f"{base}/ebidPPIPublish/EjPPIj",
+            data={
+                "Nendo": "",
+                "KikanNO": kikan_no,
+                "ChoutatsuCD": choutatsu_cd,
+                "BukyokuNO": "",
+                "KoujiSyubetu": "",
+                "BidStDate": date_from,
+                "BidEnDate": date_to,
+                "mojisel1": "",
+                "kkselect": "AND",
+                "mojisel2": "",
+                "ejMaxDisplayRowCount": "700",
+                "ejDisplaySort": "030006",
+                "ejSortSequence": "desc",
+                "ejParameterID": "EjPSJ01",
+                "ejProcessName": "findList",
+                "getStpos": "0",
+                "AllhitSize": "0",
+                "ejShousaiDispFlag": "",
+            },
+            timeout=TIMEOUT,
+        )
+        html_parts.append(r.content.decode("cp932", errors="replace"))
+        time.sleep(SLEEP_BETWEEN_REQUESTS)
+
+    soup = BeautifulSoup("".join(html_parts), "lxml")
+    for tr in soup.find_all("tr"):
+        tds = tr.find_all("td", recursive=False)
+        if len(tds) < 9:
+            continue
+        classes0 = tds[0].get("class") or []
+        if not any(c.startswith("DISP_LIST") for c in classes0):
+            continue
+        title_td = tds[2]
+        if title_td.find("a") or not title_td.get_text(strip=True):
+            continue
+        a_tag = soup.new_tag("a", href=cond_url)
+        a_tag.string = title_td.get_text(strip=True)
+        title_td.clear()
+        title_td.append(a_tag)
+    return str(soup), cond_url
+
+
+def fukui_ppi():
+    """福井県 電子調達システム 入札予定・公告(www2.ebid.pref.fukui.jp/ebidPPIPublish)。
+
+    石川県と同じPPI Publish系システムで、こちらもログイン不要。
+    案件名は<a href="#" onClick="javascript:openYotei(...)">内にあるが
+    href="#"のままだとextract_candidates()がスキップするため、
+    検索フォームURL(セッション非依存の入口)へのベストエフォートリンクに
+    書き換える。調達区分(工事/業務委託等)ごとに個別検索が必要。
+    """
+    base = "https://www2.ebid.pref.fukui.jp"
+    kikan_no = "0001000"
+    s = requests.Session()
+    s.headers.update({"User-Agent": USER_AGENT})
+
+    s.get(f"{base}/ebidPPIPublish/EjPPIj", timeout=TIMEOUT)
+    s.post(
+        f"{base}/ebidPPIPublish/EjPPIj",
+        data={"ejParameterID": "TopMenu"},
+        timeout=TIMEOUT,
+    )
+    s.post(
+        f"{base}/ebidPPIPublish/EjPPIj",
+        data={
+            "ejParameterID": "TopMenu",
+            "ejNextParameterID": "EjPSJ01",
+            "ejProcessName": "start",
+            "ejCategoryName": "",
+        },
+        timeout=TIMEOUT,
+    )
+    cond_url = f"{base}/ebidPPIPublish/EjPPIj"
+    s.get(
+        cond_url,
+        params={"ejParameterID": "EjPSJ01", "ejProcessName": "getCondPage"},
+        timeout=TIMEOUT,
+    )
+
+    html_parts = []
+    for choutatsu_cd in ("00", "01"):
+        r = s.post(
+            f"{base}/ebidPPIPublish/EjPPIj",
+            data={
+                "Nendo": str(datetime.date.today().year),
+                "KikanNO": kikan_no,
+                "BukyokuNO": "",
+                "KakakariNO": "",
+                "ChoutatsuCD": choutatsu_cd,
+                "BidSuccessfulMethodType": "",
+                "EbidCD": "",
+                "KoujiSyubetu": "",
+                "SearchDateType": "3",
+                "BidStDate": "",
+                "BidEnDate": "",
+                "mojisel1": "",
+                "kkselect": "AND",
+                "mojisel2": "",
+                "ejMaxDisplayRowCount": "100",
+                "ejParameterID": "EjPSJ01",
+                "ejProcessName": "findList",
+                "getStpos": "0",
+                "AllhitSize": "0",
+            },
+            timeout=TIMEOUT,
+        )
+        html_parts.append(r.content.decode("cp932", errors="replace"))
+        time.sleep(SLEEP_BETWEEN_REQUESTS)
+
+    soup = BeautifulSoup("".join(html_parts), "lxml")
+    for a in soup.find_all("a", href="#"):
+        onclick = a.get("onclick", "")
+        if "openYotei" in onclick:
+            a["href"] = cond_url
+    return str(soup), cond_url
+
+
+def mie_efftis():
+    """三重県 物件等調達(物品・役務)入札予定(mie.efftis.jp/24000/eps)。
+
+    ebid-mie トップの「物件等調達」リンク先がログイン不要の検索フォーム。
+    このシステム(efftis)は隠しフィールドが非常に多く、一部を省略すると
+    「システムエラー(99999)」を返すため、フォームの全フィールドを一旦
+    そのまま複製してから必要な値だけ上書きして送信する(SelectSubmit()が
+    同一フォームのs/aだけ書き換えて再送信するJSの挙動を再現)。
+    表示件数は既定10件では網羅性が低いため、検索後にもう一段
+    maxDispRowCountCode=4(100件)へ切り替える。
+    案件名の<a>は href が実URLではなくiframeターゲット名のため、
+    onclickのopenDetailBidding()引数から実際に取得可能なURLを組み立てて
+    href を書き換える。ただしこのURLもセッション依存(別セッションだと
+    セッションタイムアウト画面になる)ため detail_fetch_unsafe 扱いとする。
+    """
+    base = "https://mie.efftis.jp/24000/eps"
+    s = requests.Session()
+    s.headers.update({"User-Agent": USER_AGENT})
+
+    public_url = f"{base}/public"
+
+    def _form_data(html):
+        soup = BeautifulSoup(html, "lxml")
+        form = soup.find("form", attrs={"name": "main"})
+        data = {}
+        for inp in form.find_all("input"):
+            name = inp.get("name")
+            if not name:
+                continue
+            typ = (inp.get("type") or "text").lower()
+            if typ in ("submit", "button", "image", "reset"):
+                continue
+            if typ in ("checkbox", "radio"):
+                if inp.has_attr("checked"):
+                    data[name] = inp.get("value", "")
+                continue
+            data[name] = inp.get("value", "")
+        for sel in form.find_all("select"):
+            name = sel.get("name")
+            if not name:
+                continue
+            opt = sel.find("option", selected=True) or sel.find("option")
+            data[name] = opt.get("value", "") if opt else ""
+        for ta in form.find_all("textarea"):
+            name = ta.get("name")
+            if name:
+                data[name] = ta.text
+        return data
+
+    r0 = s.get(public_url, timeout=TIMEOUT)
+    data = _form_data(r0.content.decode("cp932", errors="replace"))
+
+    # nend は "5"(令和の元号コード) + 令和年度2桁、例: 令和8年度 -> "508"
+    data.update(
+        {
+            "s": "A001",
+            "a": "2",
+            "nend": f"5{datetime.date.today().year - REIWA_EPOCH:02d}",
+            "bidWay": "99",
+            "sankaYoken": "99",
+            "orderBunrui": "99",
+        }
+    )
+    r1 = s.post(public_url, data=data, timeout=TIMEOUT)
+    html1 = r1.content.decode("cp932", errors="replace")
+
+    data2 = _form_data(html1)
+    data2.update({"s": "A002", "a": "1", "maxDispRowCountCode": "4"})
+    r2 = s.post(public_url, data=data2, timeout=TIMEOUT)
+    html = r2.content.decode("cp932", errors="replace")
+
+    def _rewrite(m):
+        order_num, nend = m.group(1), m.group(2)
+        return (
+            f'href="{base}/public?s=A002&a=4&orderNum={order_num}&nend={nend}" '
+            f'target="ifrm"'
+        )
+
+    html = re.sub(
+        r'href="[^"]*" target="ifrm" onclick="javascript:openDetailBidding\('
+        r"'public\?s=A002&a=4&orderNum=(\d+)&nend=(\d+)'\)\"",
+        _rewrite,
+        html,
+    )
+    return html, public_url
+
+
 def tokyo_pbi():
     """東京都 入札情報サービス(発注予定情報)。
 
@@ -675,6 +929,9 @@ HANDLERS = {
     "saitama_buppin": saitama_buppin,
     "kanagawa_buppin": kanagawa_buppin,
     "tokyo_pbi": tokyo_pbi,
+    "ishikawa_ppi": ishikawa_ppi,
+    "fukui_ppi": fukui_ppi,
+    "mie_efftis": mie_efftis,
 }
 
 
