@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T00:21:49Z",
+  "generated_at": "2026-07-22T22:03:05Z",
   "items": [
     {
       "id": "7b50a73e353085ee",
@@ -81,6 +81,27 @@
       "deadline_raw": "令和7年9月25日",
       "amount_raw": "20,000,000円",
       "amount_display": "20,000,000円",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22"
+    },
+    {
+      "id": "1c845d7434f54b2f",
+      "org_id": "akita",
+      "org_name": "秋田県",
+      "org_category": "prefecture",
+      "title": "デジタル販路開拓支援事業業務委託に係る企画提案競技審査会の結果について",
+      "context": "デジタル販路開拓支援事業業務委託に係る企画提案競技審査会の結果について [ 2026年07月22日 ]",
+      "url": "https://www.pref.akita.lg.jp/pages/archive/98187",
+      "source_page": "https://www.pref.akita.lg.jp/pages/genre/12121",
+      "matched_keywords": [
+        "委託",
+        "業務委託",
+        "販路開拓"
+      ],
+      "deadline_date": "2026-07-24",
+      "deadline_raw": "７月24日",
+      "amount_raw": null,
+      "amount_display": null,
       "first_seen": "2026-07-22",
       "last_seen": "2026-07-22"
     },
