@@ -369,7 +369,7 @@ def extract_candidates(html, base_url, current_year=None):
 
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
-        if not href or href.startswith("javascript:") or href.startswith("#"):
+        if not href or href.lower().startswith("javascript:") or href.startswith("#"):
             continue
         abs_url = urllib.parse.urljoin(base_url, href)
 
@@ -439,7 +439,9 @@ def _ibaraki_style(base, entry_action, kikan_value, kikan_name,
 
     r1 = s.get(f"{base}{entry_action}", timeout=TIMEOUT)
     html1 = r1.content.decode("cp932", errors="replace")
-    m = re.search(r'action="(/koukai/do/[^"]*)"', html1)
+    # actionに ";jsessionid=..." が付与されるサイト(奈良県等)があり、そのまま次のPOSTに
+    # 使うと古いセッションIDがURLに混入してシステムエラーになるため、";"以降を切り捨てる。
+    m = re.search(r'action="(/koukai/do/[^";]*)', html1)
     action_path = m.group(1) if m else entry_action
     kk_action = action_path.replace("KF000ShowAction", "KK000ShowAction")
 
@@ -885,6 +887,136 @@ def mie_efftis():
     return html, public_url
 
 
+def nara_koukai():
+    """奈良県 入札情報公開システム(epi-cloud.fwd.ne.jp、茨城県・埼玉県と同系)。
+
+    _ibaraki_style()と同じ製品だが、フォームのaction属性に
+    ";jsessionid=..." が付与されており、次のPOSTにこれを含めて送ると
+    セッションが不整合になり「システムエラー」になる。また各ステップで
+    正しいRefererヘッダとhachukikan_hidden欄が無いと拒否されるため、
+    _ibaraki_style()を流用せず専用に実装する(既存団体への影響回避)。
+    """
+    base = "https://www.epi-cloud.fwd.ne.jp"
+    kikan_value = "1290ZZZZZZ"
+    kikan_name = "奈良県"
+    s = requests.Session()
+    s.headers.update({"User-Agent": USER_AGENT})
+
+    r1 = s.get(f"{base}/koukai/do/KF000ShowAction", timeout=TIMEOUT)
+    r2 = s.post(
+        f"{base}/koukai/do/KK000ShowAction",
+        data={
+            "hachukikan": kikan_value,
+            "bukyoku": "",
+            "kakakari": "",
+            "kasho_name": kikan_name + "　",
+            "hachukikan_name": kikan_name,
+            "supplytype": "11",
+            "hachukikan_hidden": kikan_value,
+        },
+        timeout=TIMEOUT,
+        headers={"Referer": r1.url},
+    )
+    r3 = s.get(f"{base}/koukai/do/koukai_menu", timeout=TIMEOUT, headers={"Referer": r2.url})
+    r4 = s.post(f"{base}/koukai/do/KB301ShowAction", data={}, timeout=TIMEOUT, headers={"Referer": r3.url})
+
+    search_data = {
+        "A046": "",
+        "koujimei": "",
+        "koujibasho": "",
+        "date_start": "",
+        "date_end": "",
+        "A300": "040",
+        "perPage": "0",
+        "curPage": "0",
+        "recordnumstart": "0",
+        "recordnumend": "0",
+        "recordNum": "",
+    }
+    r5 = s.post(f"{base}/koukai/do/KB301SearchAction", data=search_data, timeout=TIMEOUT, headers={"Referer": r4.url})
+    r6 = s.get(f"{base}/koukai/do/KFB301FrameShow", timeout=TIMEOUT, headers={"Referer": r5.url})
+    html = r6.content.decode("cp932", errors="replace")
+    html = re.sub(
+        r"javascript:doEdit\('(\d+)'\)",
+        base + r"/koukai/do/KB302ShowAction?control_no=\1",
+        html,
+    )
+    return html, base + "/koukai/do/"
+
+
+def tottori_itaku():
+    """鳥取県 入札情報公表一覧(委託・役務等関係、令和8年度)。
+
+    セッション不要の静的ページだが、案件名がリンクではなく素の<table>の
+    <td>のため、kanagawa_buppin同様に<a>タグで包んでから返す。
+    """
+    nendo = datetime.date.today().year - REIWA_EPOCH
+    url = f"http://db.pref.tottori.jp/itakutounyuusatsu.nsf/index_R{nendo}_1.htm"
+    r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+    r.encoding = r.apparent_encoding
+    soup = BeautifulSoup(r.text, "lxml")
+    for tr in soup.find_all("tr"):
+        tds = tr.find_all("td", recursive=False)
+        if len(tds) < 9:
+            continue
+        title_td = tds[0]
+        if title_td.find("a") or not title_td.get_text(strip=True):
+            continue
+        a_tag = soup.new_tag("a", href=url)
+        a_tag.string = title_td.get_text(strip=True)
+        title_td.clear()
+        title_td.append(a_tag)
+    return str(soup), url
+
+
+def kyoto_ebuppin():
+    """京都府 物品・役務等電子調達システム 案件情報(info.pref.kyoto.lg.jp/e-buppin)。
+
+    ログイン不要で案件情報一覧に到達できる。契約方式(一般競争入札/
+    公募見積合わせ)ごとにタブが分かれているため両方取得して結合する。
+    案件名の<a>は href="JavaScript:detail(...)"のため、案件情報一覧
+    URLへのベストエフォートリンクに書き換える(詳細は別セッションでは
+    開けないため detail_fetch_unsafe 扱い)。
+    """
+    base = "https://info.pref.kyoto.lg.jp/e-buppin/POEg/guest"
+    s = requests.Session()
+    s.headers.update({"User-Agent": USER_AGENT})
+
+    list_url = f"{base}/generalPublishedMatterInitListAction.do"
+    r1 = s.get(list_url, timeout=TIMEOUT)
+    r1.encoding = "cp932"
+    html1 = r1.text
+
+    soup1 = BeautifulSoup(html1, "lxml")
+    form = soup1.find("form", attrs={"name": "publishedMatterListActionForm"})
+    data = {}
+    for inp in form.find_all("input"):
+        name = inp.get("name")
+        if name:
+            data[name] = inp.get("value", "")
+    data.update(
+        {
+            "contractMethod": "21",
+            "sortType": "OUTERMATTERNO_DESC",
+            "current": "0",
+            "publishedTitle": "",
+            "kindItemCategory": "",
+            "kindItemSubcategory": "",
+        }
+    )
+    r2 = s.post(f"{base}/generalPublishedMatterListAction.do", data=data, timeout=TIMEOUT)
+    r2.encoding = "cp932"
+
+    html = html1 + r2.text
+    html = re.sub(
+        r'href="JavaScript:detail\(\'\d+\'\);?"',
+        f'href="{list_url}"',
+        html,
+        flags=re.IGNORECASE,
+    )
+    return html, list_url
+
+
 def tokyo_pbi():
     """東京都 入札情報サービス(発注予定情報)。
 
@@ -932,6 +1064,9 @@ HANDLERS = {
     "ishikawa_ppi": ishikawa_ppi,
     "fukui_ppi": fukui_ppi,
     "mie_efftis": mie_efftis,
+    "nara_koukai": nara_koukai,
+    "tottori_itaku": tottori_itaku,
+    "kyoto_ebuppin": kyoto_ebuppin,
 }
 
 
