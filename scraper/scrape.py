@@ -1017,42 +1017,88 @@ def kyoto_ebuppin():
     return html, list_url
 
 
+def _tokyo_mark_jiji_rows(html):
+    """一覧テーブルの業種/営業種目列(4列目)に「催事」を含む行に、
+    件名に頼らずtopicキーワード一致とみなせるようマーカーを注入する。
+
+    「催事関係業務」は展示会・イベント運営等を指す分類だが、件名自体には
+    「展示」「商談」等のテーマ語が含まれない案件が多い(例:
+    「令和8年度退院支援人材育成研修運営業務委託」)。件名(<a>タグの
+    テキスト)は汚さず、行の周辺テキスト(matches_keywords()の判定対象)
+    にのみ紛れ込むよう、業種/営業種目セル自体に追記する。
+    """
+    soup = BeautifulSoup(html, "lxml")
+    for table in soup.find_all("table", class_="list-data"):
+        for tr in table.find_all("tr"):
+            tds = tr.find_all("td")
+            if len(tds) < 4:
+                continue
+            if "催事" in tds[3].get_text(strip=True):
+                tds[3].append("(展示)")
+    return str(soup)
+
+
 def tokyo_pbi():
     """東京都 入札情報サービス(発注予定情報)。
 
     レガシーなサーバ側フォームバリデーションが requests での単純な
     POST再現に対して不安定なため、Playwrightで実ブラウザ操作を行う。
+
+    検索フォームは「工事」(業種)と「物品等」(営業種目)の2つの必須条件が
+    別々のラジオボタンになっており、既定では前者(工事)のみが選択されて
+    いる。「催事関係業務」等の展示会・イベント運営に関わる区分は後者
+    (物品等)側の営業種目にしか現れないため、両方で検索して結果を結合する
+    (物品等側の追加検索は数百ms～1秒程度で、実行時間への影響は軽微)。
+    営業種目は一覧テーブルの4列目に既に表示されており、詳細ページを
+    開く必要はなかった。
     """
     from playwright.sync_api import sync_playwright
 
     base = "https://www.e-procurement.metro.tokyo.lg.jp"
     nav_timeout = TIMEOUT * 1000
+
+    def _search(page, select_buppin):
+        # チャットウィジェットが常時通信するため networkidle は使わず、
+        # 各ステップの遷移先に現れるはずの要素を明示的に待つ。
+        # クリックイベント経由だとチャットウィジェット等の影響で不安定なため、
+        # リンクの javascript: href が呼ぶ関数を直接評価して遷移する。
+        page.wait_for_selector("a.btnS:has-text('検索')", timeout=nav_timeout)
+        if select_buppin:
+            page.check("input[name='itemConsgoods']")
+        page.evaluate("SelectSubmitOrder(4,1)")
+
+        page.wait_for_selector(
+            "table.list-data, a.btnS:has-text('表示')", timeout=nav_timeout
+        )
+        if page.locator("a.btnS:has-text('表示')").count() > 0:
+            page.evaluate("SelectSubmit(4,3)")
+            page.wait_for_selector("table.list-data", timeout=nav_timeout)
+        return page.content()
+
     with sync_playwright() as p:
         browser = p.chromium.launch()
         try:
             page = browser.new_page(user_agent=USER_AGENT)
-            # チャットウィジェットが常時通信するため networkidle は使わず、
-            # 各ステップの遷移先に現れるはずの要素を明示的に待つ。
-            # クリックイベント経由だとチャットウィジェット等の影響で不安定なため、
-            # リンクの javascript: href が呼ぶ関数を直接評価して遷移する。
             page.goto(f"{base}/indexPbi.jsp", timeout=nav_timeout)
             page.wait_for_selector('form[name="main"]', state="attached", timeout=nav_timeout)
             page.evaluate("SelectTargetSubmit(3,3,'_top')")
+            html_koji = _search(page, select_buppin=False)
 
-            page.wait_for_selector("a.btnS:has-text('検索')", timeout=nav_timeout)
-            page.evaluate("SelectSubmitOrder(4,1)")
-
-            page.wait_for_selector(
-                "table.list-data, a.btnS:has-text('表示')", timeout=nav_timeout
-            )
-            if page.locator("a.btnS:has-text('表示')").count() > 0:
-                page.evaluate("SelectSubmit(4,3)")
-                page.wait_for_selector("table.list-data", timeout=nav_timeout)
-            html = page.content()
+            page.evaluate("SelectTargetSubmit(3,3,'_top')")
+            html_buppin = _search(page, select_buppin=True)
         finally:
             browser.close()
 
+    # page.content()はそれぞれ完全な<html>文書のため、単純な文字列連結だと
+    # 2つ目の<html>がパーサに無視されてしまう。一覧テーブル部分のみを
+    # 抽出してから結合する。
+    def _extract_table(html):
+        t = BeautifulSoup(html, "lxml").find("table", class_="list-data")
+        return str(t) if t else ""
+
+    html = f"<html><body>{_extract_table(html_koji)}{_extract_table(html_buppin)}</body></html>"
     html = re.sub(r"javascript:SelectSubmitNo\([^)]*\)", base + "/indexPbi.jsp", html)
+    html = _tokyo_mark_jiji_rows(html)
     return html, base + "/"
 
 
