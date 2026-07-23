@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T01:16:46Z",
+  "generated_at": "2026-07-23T02:09:12Z",
   "items": [
     {
       "id": "778965ab58e6103a",
@@ -40,6 +40,204 @@
       "deadline_raw": null,
       "amount_raw": null,
       "amount_display": null,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "2cc76aca56aa6664",
+      "org_id": "tokyo",
+      "org_name": "東京都",
+      "org_category": "prefecture",
+      "title": "エコプロ2026出展に係る展示装飾の企画及び設計設営委託",
+      "context": "令和8年7月21日 08-00233 【電子】 エコプロ2026出展に係る展示装飾の企画及び設計設営委託 催事関係業務(展示) 契約確定の日の翌日から令和8年12月25日まで 希望制指名競争入札(総合評価方式) B A,B 7月21日 ～7月24日 受付中 環境局総務部経理課",
+      "url": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "source_page": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "matched_keywords": [
+        "委託",
+        "展示"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "f44934cb701272cb",
+      "org_id": "tokyo",
+      "org_name": "東京都",
+      "org_category": "prefecture",
+      "title": "令和８年度退院支援人材育成研修運営業務委託",
+      "context": "令和8年7月21日 08-03222 【電子】 令和８年度退院支援人材育成研修運営業務委託 催事関係業務(展示) 契約確定の日の翌日から令和9年3月31日まで 希望制指名競争入札 B B 7月21日 ～7月27日 受付中 保健医療局総務部総務課",
+      "url": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "source_page": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託",
+        "運営"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "bf59d316152b03ec",
+      "org_id": "tokyo",
+      "org_name": "東京都",
+      "org_category": "prefecture",
+      "title": "令和８年度火葬場に係る検討会の運営業務委託",
+      "context": "令和8年7月21日 08-09113 【電子】 令和８年度火葬場に係る検討会の運営業務委託 催事関係業務(展示) 契約確定の日の翌日から令和9年3月31日まで 希望制指名競争入札 C C 7月21日 ～7月24日 受付中 保健医療局総務部総務課",
+      "url": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "source_page": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託",
+        "運営"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "23bf75ff5e1dd176",
+      "org_id": "tokyo",
+      "org_name": "東京都",
+      "org_category": "prefecture",
+      "title": "第39回全国健康福祉祭東京大会２年前カウントダウンイベント企画運営業務委託",
+      "context": "令和8年7月21日 08-11011 【電子】 第39回全国健康福祉祭東京大会２年前カウントダウンイベント企画運営業務委託 催事関係業務(展示) 契約確定の日の翌日から令和8年11月30日まで 希望制指名競争入札(総合評価方式) B A,B 7月21日 ～7月24日 受付中 スポーツ推進本部スポーツ企画部企画調整課",
+      "url": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "source_page": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "matched_keywords": [
+        "企画運営",
+        "委託",
+        "展示",
+        "業務委託",
+        "運営"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "b3bc328cfcab7b16",
+      "org_id": "tokyo",
+      "org_name": "東京都",
+      "org_category": "prefecture",
+      "title": "令和８年度　ニュースポーツ体験イベントを通じた都庁の賑わい創出業務委託",
+      "context": "令和8年7月21日 08-07061 【電子】 令和８年度　ニュースポーツ体験イベントを通じた都庁の賑わい創出業務委託 催事関係業務(展示) 契約確定の日の翌日から令和9年1月31日まで 希望制指名競争入札 B B 7月21日 ～7月24日 受付中 財務局経理部総務課",
+      "url": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "source_page": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "0d6f140ed9c7e7fb",
+      "org_id": "tokyo",
+      "org_name": "東京都",
+      "org_category": "prefecture",
+      "title": "山しごと体感フェスティバル会場運営等業務委託（その２）",
+      "context": "令和8年7月21日 08-03095 【電子】 山しごと体感フェスティバル会場運営等業務委託（その２） 催事関係業務(展示) 契約確定の日の翌日から令和9年2月26日まで 希望制指名競争入札(総合評価方式) A A 7月21日 ～7月24日 受付中 財務局経理部契約第二課",
+      "url": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "source_page": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託",
+        "運営"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "dc67b9e1ba8973ae",
+      "org_id": "tokyo",
+      "org_name": "東京都",
+      "org_category": "prefecture",
+      "title": "マンション防災取組事例の調査・収集及び表彰に係る業務委託",
+      "context": "令和8年7月21日 08-03098 【電子】 マンション防災取組事例の調査・収集及び表彰に係る業務委託 催事関係業務(展示) 契約確定の日の翌日から令和9年3月26日まで 希望制指名競争入札 A A 7月21日 ～7月24日 受付中 財務局経理部契約第二課",
+      "url": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "source_page": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "5540e0e4b2995e68",
+      "org_id": "matsuyama",
+      "org_name": "愛媛県松山市",
+      "org_category": "partner",
+      "title": "「松山圏域中小企業販路開拓市2027」開催用務に係る業務委託（公募型プロポーザル方式）（ふるさと納税・経営支援課）",
+      "context": "「松山圏域中小企業販路開拓市2027」開催用務に係る業務委託（公募型プロポーザル方式）（ふるさと納税・経営支援課）",
+      "url": "https://www.city.matsuyama.ehime.jp/shisei/denshinyusatsu/gyoumuitaku/info/r8itaku/hanro2027.html",
+      "source_page": "https://www.city.matsuyama.ehime.jp/shisei/denshinyusatsu/gyoumuitaku/info/r8itaku/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "委託",
+        "業務委託",
+        "販路開拓",
+        "開催"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": "8,718,000円",
+      "amount_display": "8,718,000円",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "7055f3745e844de9",
+      "org_id": "matsuyama",
+      "org_name": "愛媛県松山市",
+      "org_category": "partner",
+      "title": "越境ECによる海外への販路拡大支援業務委託（公募型プロポーザル方式）（ふるさと納税・経営支援課）",
+      "context": "越境ECによる海外への販路拡大支援業務委託（公募型プロポーザル方式）（ふるさと納税・経営支援課）",
+      "url": "https://www.city.matsuyama.ehime.jp/shisei/denshinyusatsu/gyoumuitaku/info/r8itaku/r8ekkyouec.html",
+      "source_page": "https://www.city.matsuyama.ehime.jp/shisei/denshinyusatsu/gyoumuitaku/info/r8itaku/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "委託",
+        "業務委託",
+        "販路拡大"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": "3,300,000円",
+      "amount_display": "3,300,000円",
       "first_seen": "2026-07-23",
       "last_seen": "2026-07-23"
     },
@@ -406,7 +604,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-22"
+      "last_seen": "2026-07-23"
     },
     {
       "id": "85194c5f600a4e4f",
@@ -428,7 +626,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-22"
+      "last_seen": "2026-07-23"
     },
     {
       "id": "5f756804dd58ce28",
@@ -450,7 +648,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-22"
+      "last_seen": "2026-07-23"
     },
     {
       "id": "35c70e67600fa2c6",
@@ -472,7 +670,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-22"
+      "last_seen": "2026-07-23"
     },
     {
       "id": "e72b297f88bdf409",
@@ -494,7 +692,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-22"
+      "last_seen": "2026-07-23"
     },
     {
       "id": "8e161024e8953014",
@@ -516,7 +714,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-22"
+      "last_seen": "2026-07-23"
     },
     {
       "id": "3a9802ad3f5f6f99",
