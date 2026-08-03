@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-08-03T00:04:11Z",
+  "generated_at": "2026-08-03T22:08:04Z",
   "items": [
+    {
+      "id": "d511fe4fdf3144aa",
+      "org_id": "kagoshima",
+      "org_name": "鹿児島県",
+      "org_category": "prefecture",
+      "title": "令和8年度奄美群島バイヤー招聘事業業務委託に係る公募型企画提案（プロポーザル）の実施について",
+      "context": "令和8年度奄美群島バイヤー招聘事業業務委託に係る公募型企画提案（プロポーザル）の実施について",
+      "url": "http://www.pref.kagoshima.jp/aq01/buyershouhei.html",
+      "source_page": "http://www.pref.kagoshima.jp/kensei/nyusatu/nyusatujoho/index.html",
+      "matched_keywords": [
+        "バイヤー",
+        "プロポーザル",
+        "公募",
+        "委託",
+        "実施",
+        "業務委託"
+      ],
+      "deadline_date": "2026-08-24",
+      "deadline_raw": "令和8年8月24日",
+      "amount_raw": "3,575,000円",
+      "amount_display": "3,575,000円",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03"
+    },
     {
       "id": "0ca9e4eee2b4ad2a",
       "org_id": "tokyo",
@@ -45,6 +69,48 @@
       "last_seen": "2026-08-03"
     },
     {
+      "id": "bfd9381e12ca8d88",
+      "org_id": "tokyo",
+      "org_name": "東京都",
+      "org_category": "prefecture",
+      "title": "「100年活躍ナビ」小規模イベント等の企画・運営業務等委託",
+      "context": "令和8年8月3日 08-06076 【電子】 「100年活躍ナビ」小規模イベント等の企画・運営業務等委託 催事関係業務(展示) 契約確定の日の翌日から令和9年3月31日まで 希望制指名競争入札(総合評価方式) B A,B 8月3日 ～8月7日 受付中",
+      "url": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "source_page": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "運営"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03"
+    },
+    {
+      "id": "d5d4d805ec669c08",
+      "org_id": "tokushima",
+      "org_name": "徳島県",
+      "org_category": "prefecture",
+      "title": "「徳島県観光コンテンツ造成及び販売促進支援事業補助金」の2次公募に係る審査結果について",
+      "context": "2026年8月3日 「徳島県観光コンテンツ造成及び販売促進支援事業補助金」の2次公募に係る審査結果について (委託・役務)",
+      "url": "https://www.pref.tokushima.lg.jp/jigyoshanokata/nyusatsu/itaku/7315376/",
+      "source_page": "https://www.pref.tokushima.lg.jp/jigyoshanokata/nyusatsu/itaku",
+      "matched_keywords": [
+        "公募",
+        "委託",
+        "販売促進"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03"
+    },
+    {
       "id": "e360cc9d640c5839",
       "org_id": "hokkaido",
       "org_name": "北海道",
@@ -61,6 +127,27 @@
       ],
       "deadline_date": "2026-07-23",
       "deadline_raw": "7月23日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03"
+    },
+    {
+      "id": "23f717743e0e801d",
+      "org_id": "mie",
+      "org_name": "三重県",
+      "org_category": "prefecture",
+      "title": "令和８年度特別展「大斎院―アレヲトメの物語―」展示資料輸送及び展示作業業務委託",
+      "context": "7 R8/8/4 一般・最低 環境生活部、環境生活部地域機関　斎宮歴史博物館 056060260724115739 令和８年度特別展「大斎院―アレヲトメの物語―」展示資料輸送及び展示作業業務委託 - 対象外 R8/8/19 10:00 R8/8/24 10:00",
+      "url": "https://mie.efftis.jp/24000/eps/public?s=A002&a=4&orderNum=260724250000142227&nend=2026",
+      "source_page": "https://www.pref.mie.lg.jp/ebid-mie/",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-03",
@@ -1830,10 +1917,10 @@
       ],
       "first_seen": "2026-07-17",
       "last_seen": "2026-08-03",
-      "deadline_date": "2026-02-20",
-      "deadline_raw": "令和8年2月20日",
-      "amount_raw": "5,421,864円",
-      "amount_display": "5,421,864円"
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "83076888ba14a949",
@@ -2063,7 +2150,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-02"
+      "last_seen": "2026-08-03"
     },
     {
       "id": "0ceaf79f10deab7a",
@@ -2084,7 +2171,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-02"
+      "last_seen": "2026-08-03"
     },
     {
       "id": "15423761735f3488",
@@ -2104,7 +2191,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-02"
+      "last_seen": "2026-08-03"
     },
     {
       "id": "a179af7a77783a1c",
@@ -2124,7 +2211,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-02"
+      "last_seen": "2026-08-03"
     },
     {
       "id": "8ba1b705e769d3ec",
