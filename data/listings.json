@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T01:00:58Z",
+  "generated_at": "2026-08-07T21:37:41Z",
   "items": [
     {
       "id": "844e410ca6fce75c",
@@ -47,6 +47,26 @@
       "last_seen": "2026-08-07"
     },
     {
+      "id": "ffb1e3304d3c3d2c",
+      "org_id": "tokushima_cci",
+      "org_name": "徳島商工会議所",
+      "org_category": "partner",
+      "title": "【募集終了】西日本最大級の食品BtoB商談会「FOOD STYLE JAPAN 2027＜関西＞」出展事業者募集のお知らせ",
+      "context": "2026/07/13 【募集終了】西日本最大級の食品BtoB商談会「FOOD STYLE JAPAN 2027＜関西＞」出展事業者募集のお知らせ",
+      "url": "https://www.tokushimacci.or.jp/latest_information/2026071364152/",
+      "source_page": "https://www.tokushimacci.or.jp/latest_information/",
+      "matched_keywords": [
+        "事業者募集",
+        "商談"
+      ],
+      "deadline_date": "2026-08-07",
+      "deadline_raw": "8月7日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07"
+    },
+    {
       "id": "375de6e086b59b4c",
       "org_id": "gifu",
       "org_name": "岐阜県",
@@ -83,6 +103,27 @@
       ],
       "deadline_date": "2026-08-17",
       "deadline_raw": "令和8年8月17日",
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07"
+    },
+    {
+      "id": "23ccbfcebc476e35",
+      "org_id": "hokkaido",
+      "org_name": "北海道",
+      "org_category": "prefecture",
+      "title": "総合評価一般競争入札の実施（令和8年度アイヌ工芸品販路拡大事業委託業務）",
+      "context": "2026年8月7日 総合評価一般競争入札の実施（令和8年度アイヌ工芸品販路拡大事業委託業務）",
+      "url": "https://www.pref.hokkaido.lg.jp/sm/kmc/267044.html",
+      "source_page": "https://www.pref.hokkaido.lg.jp/news/nyusatsu/",
+      "matched_keywords": [
+        "委託",
+        "実施",
+        "販路拡大"
+      ],
+      "deadline_date": "2026-08-27",
+      "deadline_raw": "8月27日",
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-07",
@@ -308,7 +349,7 @@
       "org_name": "三重県",
       "org_category": "prefecture",
       "title": "令和８年度特別展「大斎院―アレヲトメの物語―」展示資料輸送及び展示作業業務委託",
-      "context": "80 R8/8/4 一般・最低 環境生活部、環境生活部地域機関　斎宮歴史博物館 056060260724115739 令和８年度特別展「大斎院―アレヲトメの物語―」展示資料輸送及び展示作業業務委託 - 対象外 R8/8/19 10:00 R8/8/24 10:00",
+      "context": "88 R8/8/4 一般・最低 環境生活部、環境生活部地域機関　斎宮歴史博物館 056060260724115739 令和８年度特別展「大斎院―アレヲトメの物語―」展示資料輸送及び展示作業業務委託 - 対象外 R8/8/19 10:00 R8/8/24 10:00",
       "url": "https://mie.efftis.jp/24000/eps/public?s=A002&a=4&orderNum=260724250000142227&nend=2026",
       "source_page": "https://www.pref.mie.lg.jp/ebid-mie/",
       "matched_keywords": [
@@ -2001,11 +2042,11 @@
         "産業展"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-05",
-      "deadline_date": "2026-05-12",
-      "deadline_raw": "2026年5月12日",
-      "amount_raw": "12,999,600円",
-      "amount_display": "12,999,600円"
+      "last_seen": "2026-08-07",
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "5d93eb2fee660d03",
@@ -2023,7 +2064,7 @@
         "産業展"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-05",
+      "last_seen": "2026-08-07",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2044,11 +2085,11 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-05",
-      "deadline_date": null,
-      "deadline_raw": null,
-      "amount_raw": null,
-      "amount_display": null
+      "last_seen": "2026-08-07",
+      "deadline_date": "2026-02-20",
+      "deadline_raw": "令和8年2月20日",
+      "amount_raw": "5,421,864円",
+      "amount_display": "5,421,864円"
     },
     {
       "id": "1b67cab12de0b328",
@@ -2065,7 +2106,7 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-05",
+      "last_seen": "2026-08-07",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2086,11 +2127,11 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-05",
-      "deadline_date": null,
-      "deadline_raw": null,
-      "amount_raw": null,
-      "amount_display": null
+      "last_seen": "2026-08-07",
+      "deadline_date": "2026-02-20",
+      "deadline_raw": "令和8年2月20日",
+      "amount_raw": "5,421,864円",
+      "amount_display": "5,421,864円"
     },
     {
       "id": "83076888ba14a949",
@@ -2108,7 +2149,7 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-05",
+      "last_seen": "2026-08-07",
       "deadline_date": "2024-03-07",
       "deadline_raw": "2024年3月7日",
       "amount_raw": "27,183,387円",
@@ -2130,7 +2171,7 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-05",
+      "last_seen": "2026-08-07",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
