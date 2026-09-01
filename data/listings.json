@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T00:23:29Z",
+  "generated_at": "2026-09-01T23:00:47Z",
   "items": [
     {
       "id": "f49551fe8e90bc94",
@@ -41,6 +41,47 @@
       "deadline_raw": "令和8年9月18日",
       "amount_raw": "25,000,000円",
       "amount_display": "25,000,000円",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01"
+    },
+    {
+      "id": "541b9524bcf84b09",
+      "org_id": "aomori",
+      "org_name": "青森県",
+      "org_category": "prefecture",
+      "title": "「わくわく デジ★とも あそべる展2026」を開催します！ DX推進課 [2026年09月01日] new 開催概要「わくわくデジ★ともあそべる展2026」は、こどもから大人まで楽しめる体験型イベントです。ARシューティングやロボットアー…",
+      "context": "「わくわく デジ★とも あそべる展2026」を開催します！ DX推進課 [2026年09月01日] new 開催概要「わくわくデジ★ともあそべる展2026」は、こどもから大人まで楽しめる体験型イベントです。ARシューティングやロボットアー…",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/seisaku/dxsuishin/DigiTomo2026.html",
+      "source_page": "https://www.pref.aomori.lg.jp/boshu/",
+      "matched_keywords": [
+        "DX",
+        "開催"
+      ],
+      "deadline_date": "2026-09-05",
+      "deadline_raw": "9月5日",
+      "amount_raw": "560円",
+      "amount_display": "560円",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01"
+    },
+    {
+      "id": "f6ea0911b669cc74",
+      "org_id": "tokyo",
+      "org_name": "東京都",
+      "org_category": "prefecture",
+      "title": "世界都市文化フォーラム東京サミットガラディナーにおける東京産農水産物のＰＲに係る業務委託",
+      "context": "令和8年9月1日 08-00586 【電子】 世界都市文化フォーラム東京サミットガラディナーにおける東京産農水産物のＰＲに係る業務委託 催事関係業務(展示) 契約確定の日の翌日から令和9年1月29日まで 希望制指名競争入札 C C 9月1日 ～9月4日 受付中 産業労働局総務部計理課",
+      "url": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "source_page": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+      "matched_keywords": [
+        "委託",
+        "展示",
+        "業務委託"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
       "first_seen": "2026-09-01",
       "last_seen": "2026-09-01"
     },
@@ -1767,7 +1808,7 @@
       "org_name": "鳥取商工会議所",
       "org_category": "partner",
       "title": "2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します",
-      "context": "2026年8月31日 お知らせ FOOD STYLE JAPAN 2027〈関西〉 出展者募集！ 2026年8月14日 お知らせ 映画「女性の休日」上映会の開催について 2026年8月12日 お知らせ 県連景況調査（令和８年４～６月）の調査結果について 2026年8月3日 検定 第173回簿記検定試験（1級）合格発表 2026年7月30日 お知らせ 令和８年度優良従業員被表彰候補者の推せん受付中(9/1まで） 2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します 2026年7月3日 お知らせ AIエージェントセミナー（AI活用実践セミナー）の開催について 2026年7月3日 検定 第237回珠算能力検定試験合格発表",
+      "context": "2026年9月1日 お知らせ 鳥取商工会議所正職員を募集します！ 2026年8月31日 お知らせ FOOD STYLE JAPAN 2027〈関西〉 出展者募集！ 2026年8月14日 お知らせ 映画「女性の休日」上映会の開催について 2026年8月12日 お知らせ 県連景況調査（令和８年４～６月）の調査結果について 2026年8月3日 検定 第173回簿記検定試験（1級）合格発表 2026年7月30日 お知らせ 令和８年度優良従業員被表彰候補者の推せん受付中(9/1まで） 2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します 2026年7月3日 お知らせ AIエージェントセミナー（AI活用実践セミナー）の開催について",
       "url": "https://tottori-cci.or.jp/21234/",
       "source_page": "https://tottori-cci.or.jp/",
       "matched_keywords": [
@@ -2935,7 +2976,7 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-09-01",
       "deadline_date": "2024-04-16",
       "deadline_raw": "令和6年4月16日",
       "amount_raw": "25,577千円",
