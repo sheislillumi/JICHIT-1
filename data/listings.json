@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-09-03T22:58:45Z",
+  "generated_at": "2026-09-04T22:47:02Z",
   "items": [
+    {
+      "id": "6184bf92bbac5458",
+      "org_id": "kagoshima",
+      "org_name": "鹿児島県",
+      "org_category": "prefecture",
+      "title": "【募集終了しました】大規模輸出商談会への出展における鹿児島県ブースの設営・管理及び出展事業者へのサポート業務委託に係る公募型プロポーザルの実施について",
+      "context": "【募集終了しました】大規模輸出商談会への出展における鹿児島県ブースの設営・管理及び出展事業者へのサポート業務委託に係る公募型プロポーザルの実施について",
+      "url": "http://www.pref.kagoshima.jp/ag36/yusyutsu_shodankai2026.html",
+      "source_page": "http://www.pref.kagoshima.jp/kensei/nyusatu/nyusatujoho/index.html",
+      "matched_keywords": [
+        "プロポーザル",
+        "公募",
+        "商談",
+        "委託",
+        "実施",
+        "業務委託"
+      ],
+      "deadline_date": "2026-06-18",
+      "deadline_raw": "令和8年6月18日",
+      "amount_raw": "5,500,000円",
+      "amount_display": "5,500,000円",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04"
+    },
+    {
+      "id": "9b587d42b93b07af",
+      "org_id": "ibaraki",
+      "org_name": "茨城県",
+      "org_category": "prefecture",
+      "title": "令和８年度２１０ビジネスパソコン基礎科【DX推進スキル】離職者等再就職訓練業務委託",
+      "context": "令和８年度２１０ビジネスパソコン基礎科【DX推進スキル】離職者等再就職訓練業務委託 0805050200108 随意契約方式・特定者・少額 役務等の提供 その他 2026/09/04 2026/09/14 茨城県　産業戦略部　日立産業技術専門学院",
+      "url": "http://ppi2.cals-ibaraki.lg.jp/koukai/do/KB302ShowAction?control_no=350665",
+      "source_page": "http://ppi2.cals-ibaraki.lg.jp/koukai/do/KF000ShowAction",
+      "matched_keywords": [
+        "DX",
+        "委託",
+        "業務委託"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04"
+    },
     {
       "id": "7e28770c0498c1eb",
       "org_id": "wakayama",
@@ -23,7 +68,7 @@
       "amount_raw": "15，000千円",
       "amount_display": "15,000,000円",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "72d43e941a1df4f4",
@@ -46,7 +91,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "3b158e7508fe8fcb",
@@ -68,7 +113,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-09-02",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "846159a324e17b08",
@@ -89,7 +134,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-09-02",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "63b40596feff8a37",
@@ -110,7 +155,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-09-02",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "f49551fe8e90bc94",
@@ -173,7 +218,7 @@
       "amount_raw": "560円",
       "amount_display": "560円",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "f6ea0911b669cc74",
@@ -215,7 +260,7 @@
       "amount_raw": "2,000,000円",
       "amount_display": "2,000,000円",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "32d7aff39fb9c99a",
@@ -261,7 +306,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "9d665d67a1f89159",
@@ -282,7 +327,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "09cca769de51f186",
@@ -303,7 +348,7 @@
       "amount_raw": "2，９５０，０００円",
       "amount_display": "2,950,000円",
       "first_seen": "2026-08-26",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "e0653a6e177ef4f5",
@@ -324,7 +369,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-26",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "3ee00e645087e03f",
@@ -432,7 +477,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "270071dc74f5a1d0",
@@ -452,7 +497,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "bf83cbed3bda1ddf",
@@ -517,7 +562,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "67105837b6c06a32",
@@ -537,7 +582,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "87fb3836332928ca",
@@ -581,7 +626,7 @@
       "amount_raw": "18,732,000円",
       "amount_display": "18,732,000円",
       "first_seen": "2026-08-20",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "d2daade91c44ec4b",
@@ -605,7 +650,7 @@
       "amount_raw": "3,575,000円",
       "amount_display": "3,575,000円",
       "first_seen": "2026-08-19",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "c40c25e18f88b4b4",
@@ -709,7 +754,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-14",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "a2f6b9a5739088f0",
@@ -834,7 +879,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-07",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "375de6e086b59b4c",
@@ -917,7 +962,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "fbf019099323f0da",
@@ -938,7 +983,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "cd59d0c4bd5d1a61",
@@ -980,7 +1025,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "d511fe4fdf3144aa",
@@ -1175,7 +1220,7 @@
       "amount_raw": "314,600円",
       "amount_display": "314,600円",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "7165bd1c117c80f0",
@@ -1544,7 +1589,7 @@
       "amount_raw": "8,718,000円",
       "amount_display": "8,718,000円",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "7055f3745e844de9",
@@ -1567,7 +1612,7 @@
       "amount_raw": "3,300,000円",
       "amount_display": "3,300,000円",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "7b50a73e353085ee",
@@ -1588,7 +1633,7 @@
       "amount_raw": "20,000,000円",
       "amount_display": "20,000,000円",
       "first_seen": "2026-07-22",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "4f696e316491e349",
@@ -1609,7 +1654,7 @@
       "amount_raw": "19,248,240円",
       "amount_display": "19,248,240円",
       "first_seen": "2026-07-22",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "bb849e47b752e87c",
@@ -1629,7 +1674,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-22",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "5952ffcfd90b21a4",
@@ -1650,7 +1695,7 @@
       "amount_raw": "20,000,000円",
       "amount_display": "20,000,000円",
       "first_seen": "2026-07-22",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "1c845d7434f54b2f",
@@ -1671,7 +1716,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-22",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "59be8192c5d4ca9a",
@@ -1692,7 +1737,7 @@
       "amount_raw": "14,086,000円",
       "amount_display": "14,086,000円",
       "first_seen": "2026-07-22",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "3a94403084402cfe",
@@ -1734,7 +1779,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-21",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "e523d898d8b0b4b1",
@@ -1818,7 +1863,7 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-05-08",
       "deadline_raw": "5月8日",
       "amount_raw": "2,500千円",
@@ -1839,7 +1884,7 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-04-27",
       "deadline_raw": "令和8年4月27日",
       "amount_raw": null,
@@ -1862,7 +1907,7 @@
         "販路開拓"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-04-23",
       "deadline_raw": "令和8年4月23日",
       "amount_raw": null,
@@ -1907,7 +1952,7 @@
         "販売促進"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2025-05-08",
       "deadline_raw": "令和7年5月8日",
       "amount_raw": "1,500,000円",
@@ -1919,7 +1964,7 @@
       "org_name": "鳥取商工会議所",
       "org_category": "partner",
       "title": "2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します",
-      "context": "2026年9月1日 お知らせ 鳥取商工会議所正職員を募集します！ 2026年8月31日 お知らせ FOOD STYLE JAPAN 2027〈関西〉 出展者募集！ 2026年8月14日 お知らせ 映画「女性の休日」上映会の開催について 2026年8月12日 お知らせ 県連景況調査（令和８年４～６月）の調査結果について 2026年8月3日 検定 第173回簿記検定試験（1級）合格発表 2026年7月30日 お知らせ 令和８年度優良従業員被表彰候補者の推せん受付中(9/1まで） 2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します 2026年7月3日 お知らせ AIエージェントセミナー（AI活用実践セミナー）の開催について",
+      "context": "2026年9月1日 お知らせ 鳥取商工会議所正職員を募集します！ 2026年8月31日 お知らせ FOOD STYLE JAPAN 2027〈関西〉 出展者募集！ 2026年8月14日 お知らせ 【定員に達しました】映画「女性の休日」上映会の開催について 2026年8月12日 お知らせ 県連景況調査（令和８年４～６月）の調査結果について 2026年8月3日 検定 第173回簿記検定試験（1級）合格発表 2026年7月30日 お知らせ 令和８年度優良従業員被表彰候補者の推せん受付中(9/1まで） 2026年7月14日 お知らせ 【首都圏バイヤーとのWEB食品商談会＆個別相談会】を開催します 2026年7月3日 お知らせ AIエージェントセミナー（AI活用実践セミナー）の開催について",
       "url": "https://tottori-cci.or.jp/21234/",
       "source_page": "https://tottori-cci.or.jp/",
       "matched_keywords": [
@@ -1932,7 +1977,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "85194c5f600a4e4f",
@@ -1976,7 +2021,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "35c70e67600fa2c6",
@@ -2080,7 +2125,7 @@
         "公募"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-03-12",
       "deadline_raw": "令和8年3月12日",
       "amount_raw": "9,000,000円",
@@ -2101,7 +2146,7 @@
         "公募"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2025-02-17",
       "deadline_raw": "令和7年2月17日",
       "amount_raw": "9,000,000円",
@@ -2123,7 +2168,7 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2146,7 +2191,7 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2024-05-21",
       "deadline_raw": "令和6年5月21日",
       "amount_raw": "688,471,000円",
@@ -2168,7 +2213,7 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2191,7 +2236,7 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2023-06-20",
       "deadline_raw": "令和5年6月20日",
       "amount_raw": "34,000,000円",
@@ -2218,7 +2263,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "f3813adba0862f2b",
@@ -2238,7 +2283,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "da4cd0b3a95e9291",
@@ -2261,7 +2306,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "78a72c8362f3b33d",
@@ -2323,7 +2368,7 @@
         "販路開拓"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-06-29",
       "deadline_raw": "令和8年6月29日",
       "amount_raw": "1，500，000円",
@@ -2344,7 +2389,7 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2365,7 +2410,7 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2387,7 +2432,7 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-02-12",
       "deadline_raw": "令和８年２月１２日",
       "amount_raw": "２８，９９０，０００円",
@@ -2437,7 +2482,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "30606f11d807b595",
@@ -2459,7 +2504,7 @@
       "amount_raw": "３，３６１千円",
       "amount_display": "3,361,000円",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "09500640ae56e0af",
@@ -2481,7 +2526,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "98c386f91553c33c",
@@ -2503,7 +2548,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "47584bbe4fd8452e",
@@ -2524,7 +2569,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "efe1cb4379ae6b91",
@@ -2545,7 +2590,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "93cb8d4cd0746cfa",
@@ -2584,7 +2629,7 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2605,7 +2650,7 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": "752,000,000円",
@@ -2629,7 +2674,7 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-06-08",
       "deadline_raw": "6月8日",
       "amount_raw": "5,986,200円",
@@ -2650,7 +2695,7 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2674,7 +2719,7 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2698,7 +2743,7 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2721,7 +2766,7 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": "5,079,580円",
@@ -2790,7 +2835,7 @@
         "流通拡大"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2812,7 +2857,7 @@
         "産業展"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-05-12",
       "deadline_raw": "2026年5月12日",
       "amount_raw": "12,999,600円",
@@ -2834,7 +2879,7 @@
         "産業展"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2855,7 +2900,7 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-02-20",
       "deadline_raw": "令和8年2月20日",
       "amount_raw": "5,421,864円",
@@ -2876,7 +2921,7 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2897,7 +2942,7 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-02-20",
       "deadline_raw": "令和8年2月20日",
       "amount_raw": "5,421,864円",
@@ -2919,7 +2964,7 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2024-03-07",
       "deadline_raw": "2024年3月7日",
       "amount_raw": "27,183,387円",
@@ -2941,7 +2986,7 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -2962,7 +3007,7 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-06-18",
       "deadline_raw": "6月18日",
       "amount_raw": null,
@@ -2984,7 +3029,7 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-05-11",
       "deadline_raw": "5月11日",
       "amount_raw": null,
@@ -3004,7 +3049,7 @@
         "販路開拓"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-03-30",
       "deadline_raw": "令和8年3月30日",
       "amount_raw": "9,188,000円",
@@ -3026,7 +3071,7 @@
         "実施"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-03-16",
       "deadline_raw": "3月16日",
       "amount_raw": null,
@@ -3047,7 +3092,7 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2025-08-22",
       "deadline_raw": "令和7年8月22日",
       "amount_raw": null,
@@ -3067,7 +3112,7 @@
         "展示"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2025-03-24",
       "deadline_raw": "令和7年3月24日",
       "amount_raw": "25,577千円",
@@ -3152,7 +3197,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "15423761735f3488",
@@ -3172,7 +3217,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "a179af7a77783a1c",
@@ -3192,7 +3237,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "8ba1b705e769d3ec",
@@ -3208,7 +3253,7 @@
         "開催"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -3231,7 +3276,7 @@
         "運営"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": null,
       "deadline_raw": null,
       "amount_raw": null,
@@ -3252,7 +3297,7 @@
         "業務委託"
       ],
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "deadline_date": "2026-04-30",
       "deadline_raw": "令和8年4月30日",
       "amount_raw": "3,000,000円",
@@ -3298,7 +3343,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "e08173a58dc165c7",
@@ -3320,7 +3365,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "9b6a5999129e6129",
@@ -3342,7 +3387,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "7116faf0929fb3dc",
@@ -3364,7 +3409,7 @@
       "amount_raw": null,
       "amount_display": null,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-04"
     },
     {
       "id": "9657c6f21befbc39",
