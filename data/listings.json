@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T00:06:46Z",
+  "generated_at": "2026-10-20T23:37:37Z",
   "items": [
     {
       "id": "3e4fb100257603b1",
@@ -128,12 +128,32 @@
       "last_seen": "2026-10-20"
     },
     {
+      "id": "46248eb6fa3c2200",
+      "org_id": "tokushima_shokokai_kenren",
+      "org_name": "徳島県商工会連合会",
+      "org_category": "partner",
+      "title": "[国府町商工会] 【徳島市】販路拡大セミナーの開催について",
+      "context": "[国府町商工会] 【徳島市】販路拡大セミナーの開催について 「良い」より「合う」で売る～選ぶ時間がない時代の販路のつくりかた～専門家が、販路拡大のコツなどを分かりやすく解説します。　　　-こんな方におすすめ-・物価高騰...",
+      "url": "https://r.goope.jp/tsci0300/info/6959957",
+      "source_page": "https://r.goope.jp/tsci/shokokai/info",
+      "matched_keywords": [
+        "販路拡大",
+        "開催"
+      ],
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null,
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20"
+    },
+    {
       "id": "851117093b11fecf",
       "org_id": "kagawa",
       "org_name": "香川県",
       "org_category": "prefecture",
       "title": "令和８年度歴史展示室強化事業にかかる「休憩コーナー」改修等業務委託の一般競争入札について",
-      "context": "16. 2026年10月16日 令和８年度歴史展示室強化事業にかかる「休憩コーナー」改修等業務委託の一般競争入札について 政策部県立ミュージアム",
+      "context": "17. 2026年10月16日 令和８年度歴史展示室強化事業にかかる「休憩コーナー」改修等業務委託の一般競争入札について 政策部県立ミュージアム",
       "url": "https://www.pref.kagawa.lg.jp/kmuseum/sogo/rekisitennjisitukyouka.html",
       "source_page": "https://www.pref.kagawa.lg.jp/cgi-bin/page/list.php?tpl_type=2&page_type=5",
       "matched_keywords": [
@@ -433,7 +453,7 @@
       "org_name": "香川県",
       "org_category": "prefecture",
       "title": "文化財の特別公開にかかる作品の輸送及び展示作業等業務委託の公募について",
-      "context": "25. 2026年10月7日 文化財の特別公開にかかる作品の輸送及び展示作業等業務委託の公募について 政策部県立ミュージアム",
+      "context": "26. 2026年10月7日 文化財の特別公開にかかる作品の輸送及び展示作業等業務委託の公募について 政策部県立ミュージアム",
       "url": "https://www.pref.kagawa.lg.jp/kmuseum/sogo/tokubetukoukai.html",
       "source_page": "https://www.pref.kagawa.lg.jp/cgi-bin/page/list.php?tpl_type=2&page_type=5",
       "matched_keywords": [
@@ -2861,10 +2881,10 @@
       ],
       "first_seen": "2026-07-17",
       "last_seen": "2026-10-20",
-      "deadline_date": "2026-05-08",
-      "deadline_raw": "5月8日",
-      "amount_raw": "2,500千円",
-      "amount_display": "2,500,000円"
+      "deadline_date": null,
+      "deadline_raw": null,
+      "amount_raw": null,
+      "amount_display": null
     },
     {
       "id": "95a0f434b47ebabd",
